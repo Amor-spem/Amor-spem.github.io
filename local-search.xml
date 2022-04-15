@@ -1,0 +1,1296 @@
+<?xml version="1.0" encoding="utf-8"?>
+<search>
+  
+  
+  
+  <entry>
+    <title>UE4-RTX分支测试</title>
+    <link href="/2021/07/05/2021-07-16-RTX%E5%88%86%E6%94%AF%E6%B5%8B%E8%AF%95%E7%BB%93%E6%9E%9C/"/>
+    <url>/2021/07/05/2021-07-16-RTX%E5%88%86%E6%94%AF%E6%B5%8B%E8%AF%95%E7%BB%93%E6%9E%9C/</url>
+    
+    <content type="html"><![CDATA[<blockquote><p>RTX-DLSS-4.26分支是对于光线追踪进行优化增强的分支</p></blockquote><blockquote><p>RTX分支相当流弊，原文我就不粘过来了感兴趣可以跳转到原文观看</p></blockquote><blockquote><p>项目地址  <a href="https://github.com/NvRTX/UnrealEngine/tree/NvRTX_Caustics-4.26">RTX-DLSS-4.26</a></p></blockquote><h3 id="这里简单展示几张图片-（下图官方都是有工程的，可以下载下来自行查看）"><a href="#这里简单展示几张图片-（下图官方都是有工程的，可以下载下来自行查看）" class="headerlink" title="这里简单展示几张图片 （下图官方都是有工程的，可以下载下来自行查看）"></a>这里简单展示几张图片 （下图官方都是有工程的，可以下载下来自行查看）</h3><p><img src="https://raw.githubusercontent.com/NvRTX/UnrealEngine/NvRTX_Caustics-4.26/Images/povray_glasses_s.jpg?token=ALVCIUML7USQDKP3BTTMYXLBKREP4" alt="图一"></p><p><img src="https://raw.githubusercontent.com/NvRTX/UnrealEngine/NvRTX_Caustics-4.26/Images/prism_dispersion_s.jpg?token=ALVCIUIRQMSCBZXY5CRPNDLBKREXA" alt="图二"></p><p><img src="https://raw.githubusercontent.com/NvRTX/UnrealEngine/NvRTX_Caustics-4.26/Images/swimming_pool_s.jpg?token=ALVCIUIQTJGTORGLVMTTRPLBKRE2O" alt="图三"></p><h2 id="综合评价"><a href="#综合评价" class="headerlink" title="综合评价"></a>综合评价</h2><ol><li>阴影会自动变为硬阴影，应该是性能优化导致</li><li>效果真的很好，甚至直逼离线渲染器</li><li>对于折射物体的支持很棒</li><li>噪点优化强劲，对比4.26提升明显</li></ol><h2 id="优点"><a href="#优点" class="headerlink" title="优点"></a>优点</h2><ul><li>噪点情况减弱</li><li>速度加快</li><li>全局关照较好光线较为柔和</li><li>支持正常AO效果</li><li>对玻璃材质支持较好</li></ul><h2 id="问题"><a href="#问题" class="headerlink" title="问题"></a>问题</h2><ul><li>在特定情况下阴影会变为硬阴影，初步判断和距离相关</li><li>操作过程中偶尔会出现闪烁问题，不知道拍摄时会不会影响</li><li>在复杂操作会出现瞬时将帧</li><li>AO仍然存在少量噪点</li></ul>]]></content>
+    
+    
+    <categories>
+      
+      <category>效果图</category>
+      
+    </categories>
+    
+    
+    <tags>
+      
+      <tag>效果图</tag>
+      
+      <tag>UE4</tag>
+      
+    </tags>
+    
+  </entry>
+  
+  
+  
+  <entry>
+    <title>全景制作测试</title>
+    <link href="/2021/03/05/2021-03-05-%E5%85%A8%E6%99%AF%E5%B1%95%E7%A4%BA/"/>
+    <url>/2021/03/05/2021-03-05-%E5%85%A8%E6%99%AF%E5%B1%95%E7%A4%BA/</url>
+    
+    <content type="html"><![CDATA[<h2 id="室内全景测试"><a href="#室内全景测试" class="headerlink" title="室内全景测试"></a>室内全景测试</h2><blockquote><p>室内全景展示</p><p>此为批量效果</p></blockquote><iframe      height=600     width=100%      src="https://amorspem.gitee.io/full-view/room/bedroom2/index.html"      frameborder=0      allowfullscreen> </iframe><hr><iframe      height=600      width=100%      src="https://amorspem.gitee.io/full-view/room/livingroom/index.html"      frameborder=0      allowfullscreen> </iframe><p>点击<a href="https://amorspem.gitee.io/full-view/">全景展示(gitee.io)</a> 查看更多</p>]]></content>
+    
+    
+    <categories>
+      
+      <category>效果图</category>
+      
+    </categories>
+    
+    
+    <tags>
+      
+      <tag>效果图</tag>
+      
+      <tag>全景</tag>
+      
+    </tags>
+    
+  </entry>
+  
+  
+  
+  <entry>
+    <title>Git简单教程</title>
+    <link href="/2020/12/11/2020-12-11-git%E4%BD%BF%E7%94%A8%E6%95%99%E7%A8%8B/"/>
+    <url>/2020/12/11/2020-12-11-git%E4%BD%BF%E7%94%A8%E6%95%99%E7%A8%8B/</url>
+    
+    <content type="html"><![CDATA[<h2 id="Git简单教程"><a href="#Git简单教程" class="headerlink" title="Git简单教程"></a>Git简单教程</h2><blockquote><p>使用git时的常用命令，使用方法。记录一下避免以后遗忘。<br>主要介绍常用的点，过于高阶的使用用的时候再说吧…</p></blockquote><h3 id="安装Git"><a href="#安装Git" class="headerlink" title="安装Git"></a>安装Git</h3><ul><li>Windows 直接在<a href="https://git-scm.com/">这里</a>下载安装即可（也可以安装<a href="https://tortoisegit.org/">TortoiseGit UI</a>界面，对于命令行比较陌生或者希望用中文的同学比较友好）</li><li>Linux 直接用 <code>$sudo apt install git</code> 安装就完事了</li></ul><h3 id="Git基本设置"><a href="#Git基本设置" class="headerlink" title="Git基本设置"></a>Git基本设置</h3><ul><li>仓库：通过<code>git inti</code>可以创建一个空的仓库，也可以通过<code>git clone</code>克隆一个远程仓库</li><li>配置：<code>git config --list</code> 查看当前 git 配置信息。git 的配置信息有两种，一种是全局配置，一种是本地配置针对当前仓库</li><li><code>git config -e</code> 配置当前仓库设置</li><li><code>git config -e --global</code> 配置当前系统的所有仓库配置</li><li><code>git config --global user.name &quot;name&quot;</code> 设置用户名</li><li><code>git config --global user.email test@runoob.com</code> 设置邮箱<h4 id="远程仓库还需要设置一些东西"><a href="#远程仓库还需要设置一些东西" class="headerlink" title="远程仓库还需要设置一些东西"></a>远程仓库还需要设置一些东西</h4></li><li>使用<code>ssh-keygen -t rsa -C &quot;xxxxx@xxxxx.com&quot;</code>生成sshkey，一路回车就好，文件位置在用户 &gt; .ssh 文件夹下。其中.pub为公钥，将公钥复制到线上，例如github，完成后就有权限推送到远程库了。<br><img src="https://i.loli.net/2020/12/14/D7PyV8u4ofwngAz.png" alt="github-key"></li><li>想要推送到远程库，还需要设置远程库的地址。使用<code>git remote add [shortname] [url]</code>设置远程仓库地址和别名。<br><code>git remote -v</code>可以查看远程远程仓库地址。<h3 id="Git常用操作"><a href="#Git常用操作" class="headerlink" title="Git常用操作"></a>Git常用操作</h3>设置好基本设置后就可以提交文件</li><li><code>git add .</code>将所当前目录下所有文件添加到暂存区</li><li><code>git commit -m &#39;说明&#39;</code>提交暂存区文件到本地仓库</li><li><code>git push &lt;远程主机名&gt; &lt;本地分支名&gt;:&lt;远程分支名&gt;</code>将文件推送到远程仓库</li><li><code>git pull &lt;远程主机名&gt; &lt;远程分支名&gt;:&lt;本地分支名&gt;</code>将远程文件拉取到本地仓库</li><li><code>git branch</code>列出分支列表</li><li><code>git branch (branchname)</code>新建分支</li><li><code>git checkout (branchname)</code>切换不同的分支</li><li><code>git branch -d (branchname)</code>删除分支</li><li><code>git merge (branchname)</code>合并分支到当前分支</li><li><code>git log</code>查看历史提交记录</li><li><code>git status</code>查看仓库当前的状态，显示有变更的文件</li><li><code>git tag -a v1.0 </code>提交标签</li><li><code>git reset --hard 标记值</code>重置当前工作区到指定位置</li></ul><p>以上基本是使用git常用命令了。</p><hr><p>git确实非常好用，尤其是编程…</p><p>对于大文件存储有些尴尬，长时间使用会导致.git文件巨大无比…</p>]]></content>
+    
+    
+    <categories>
+      
+      <category>教程</category>
+      
+    </categories>
+    
+    
+    <tags>
+      
+      <tag>教程</tag>
+      
+      <tag>git</tag>
+      
+    </tags>
+    
+  </entry>
+  
+  
+  
+  <entry>
+    <title>Blender使用过程的问题记录</title>
+    <link href="/2020/08/17/2020-08-17-Blender%E4%BD%BF%E7%94%A8%E8%BF%87%E7%A8%8B%E7%9A%84%E9%97%AE%E9%A2%98%E8%AE%B0%E5%BD%95/"/>
+    <url>/2020/08/17/2020-08-17-Blender%E4%BD%BF%E7%94%A8%E8%BF%87%E7%A8%8B%E7%9A%84%E9%97%AE%E9%A2%98%E8%AE%B0%E5%BD%95/</url>
+    
+    <content type="html"><![CDATA[<h3 id="blender中色彩管理不全"><a href="#blender中色彩管理不全" class="headerlink" title="blender中色彩管理不全"></a>blender中色彩管理不全</h3><p><img src="https://s3.jpg.cm/2020/12/14/FBc1L.png" alt="FBc1L.png"></p><ul><li>原因是blender无法读取色彩文件</li><li>解决方案是blender不要存放在中文目录下</li></ul><h3 id="blender中自动光滑错误（多出现在glb模型文件中）"><a href="#blender中自动光滑错误（多出现在glb模型文件中）" class="headerlink" title="blender中自动光滑错误（多出现在glb模型文件中）"></a>blender中自动光滑错误（多出现在glb模型文件中）</h3><p><img src="https://s3.jpg.cm/2020/12/14/FBXRH.png" alt="FBXRH.png"></p><ul><li>解决方法清除自定义拆边法向数据</li></ul><h3 id="Blender的EEVEE渲染器出现漏光现象"><a href="#Blender的EEVEE渲染器出现漏光现象" class="headerlink" title="Blender的EEVEE渲染器出现漏光现象"></a>Blender的EEVEE渲染器出现漏光现象</h3><p><img src="https://s3.jpg.cm/2020/12/14/FBbOU.png" alt="FBbOU.png"></p><ul><li>原因是EEVEE的渲染方式决定的</li><li>解决方法<ul><li>灯光内有个接触阴影的选项可以很好的解决这个问题</li><li>开启接触阴影可能还会存在一些错误的光照，通过调整子菜单的距离即可解决</li><li>或者增加墙体的厚度也能一定程度的解决问题</li></ul></li></ul><p><img src="https://s3.jpg.cm/2020/12/14/FB18O.png" alt="FB18O.png"></p><h3 id="Blender渲染图片保存后出现色差现象，主要表现在颜色变亮"><a href="#Blender渲染图片保存后出现色差现象，主要表现在颜色变亮" class="headerlink" title="Blender渲染图片保存后出现色差现象，主要表现在颜色变亮"></a>Blender渲染图片保存后出现色差现象，主要表现在颜色变亮</h3><ul><li>原因<br>  推测原始是由于保存png或jpg等文件，存储的是RGB信息，而Blender合成器导入的图片是sRGB的色彩信息。</li><li>解决办法<br>  目前临时的解决办法是采用HDR，EXR等线性色彩空间保存，可以避免这种情况的出现</li></ul><h3 id="Blender中法线贴图表现错误"><a href="#Blender中法线贴图表现错误" class="headerlink" title="Blender中法线贴图表现错误"></a>Blender中法线贴图表现错误</h3><ul><li>原因<br>  法线的色彩空间未做修改。</li><li>解决办法<br>  修改为正确的色彩空间<br><img src="https://s3.jpg.cm/2020/12/14/FBUBf.png" alt="FBUBf.png"></li></ul>]]></content>
+    
+    
+    <categories>
+      
+      <category>blender</category>
+      
+    </categories>
+    
+    
+    <tags>
+      
+      <tag>blender</tag>
+      
+      <tag>问题</tag>
+      
+    </tags>
+    
+  </entry>
+  
+  
+  
+  <entry>
+    <title>经济知识</title>
+    <link href="/2020/05/10/2020-05-10-%E7%BB%8F%E6%B5%8E/"/>
+    <url>/2020/05/10/2020-05-10-%E7%BB%8F%E6%B5%8E/</url>
+    
+    <content type="html"><![CDATA[<h2 id="经济知识的简单了解"><a href="#经济知识的简单了解" class="headerlink" title="经济知识的简单了解"></a>经济知识的简单了解</h2><p>最重要的三点！！</p><h4 id="不要让债务的增长速度超过收入！"><a href="#不要让债务的增长速度超过收入！" class="headerlink" title="不要让债务的增长速度超过收入！"></a><strong><em>不要让债务的增长速度超过收入！</em></strong></h4><ul><li>否则你会被债务负担压垮。</li></ul><h4 id="不要让收入的增长速度超过生产率！"><a href="#不要让收入的增长速度超过生产率！" class="headerlink" title="不要让收入的增长速度超过生产率！"></a><strong><em>不要让收入的增长速度超过生产率！</em></strong></h4><ul><li><p>拥有较高的收入，但无法匹配合理的生产率，你就会被开除，将有相同的价钱，但生产率更高的人来代替你。最终会让你失去竞争力。</p></li><li><p>收入的过量增长会导致盲目自信，导致开支增加，最终反映在债务增加，下行周期时，会导致收入无法偿还财务！</p></li></ul><h4 id="尽一切努力提高生产力！！！！！！"><a href="#尽一切努力提高生产力！！！！！！" class="headerlink" title="尽一切努力提高生产力！！！！！！"></a><strong><em>尽一切努力提高生产力！！！！！！</em></strong></h4><p><strong>尽一切努力提高生产力！！！！</strong>！！</p><ul><li>生产力是一切的根本！</li><li>生产力的提高是起决定性作用的因素！！！</li></ul><p><img src="https://pic.imgdb.cn/item/5eaedd78c2a9a83be5e0c99e.png" alt="image-20200503230421278"></p><h3 id="交易"><a href="#交易" class="headerlink" title="交易"></a>交易</h3><p><strong>交易是经济的驱动力</strong></p><p><strong>也就是买方支出总额是经济的驱动力</strong></p><p><strong>买方的支出是卖方的收入</strong></p><p><strong>所以流动性很重要</strong></p><ul><li>买方 信用或货币</li><li>卖方 商品服务或者金融资产</li></ul><h3 id="信贷-债务"><a href="#信贷-债务" class="headerlink" title="信贷-债务"></a>信贷-债务</h3><ul><li><p>是贷款方的资产，是借款方的债务。</p></li><li><p><strong>信贷总额远远大于货币总额！</strong></p></li><li><p>信贷非常重要，分为贷款方和借款方。本质是向将来的自己贷款。</p></li><li><p>借贷同时满足贷款方和借款方的需求，所以信贷是自然而然的产生的。</p></li><li><p>而借贷是为了支出，而支出又将成为其他人的收入。。。（世界的本质就是套娃。。。）</p></li><li><p>如此，经济就会增长~</p></li><li><p>为了获得一样东西就得相应的支出成本，成本的支出有两个方面，信用或者货币。而无论是信用还是货币，本质都是你的生产获得。所以最终决定生活水平的提高其实是<strong>生产率</strong>的提高。并且生产率不会产生剧烈波动。</p></li></ul><h4 id="债务周期"><a href="#债务周期" class="headerlink" title="债务周期"></a>债务周期</h4><ul><li><p>信贷的出现，可以让你在支出量上超过你的产出量，经济趋势上升；当然也会导致你在未来的支出必须低于你的生产，以便偿还债务，所以经济趋势下降。并且信贷会产生相对剧烈的波动。这个波动在短期内（1-2年）会强烈影响生产率的提升。</p></li><li><p>并且由于一个人的支出就是另一个人的收入，所以即使你没有贷款，这个周期性仍然会影响到你，因为贷款的人少了，消费总量也就小了，你的收入自然也就小了。这一切和我们每个人都息息相关。—-所以有几年会感觉一直在工作，但是生活质量并没有明显提升，而有几年，什么都没干，生活水平也在增长。造成这种情况的原因就算信贷的周期性。<strong>对于个人是这样，对于国家和世界都是如此。</strong></p></li><li><p>信贷和经济的相关性非常高，而利率又是控制信贷的强力手段，所以国家可以通过调整利率的方式来控制信贷，从而控制经济的发展，避免经济过热与萧条。</p></li></ul><h4 id="短期债务周期"><a href="#短期债务周期" class="headerlink" title="短期债务周期"></a>短期债务周期</h4><ul><li>持续时间一般为5-8年。</li><li>因为人性都喜欢借更多钱，更多花钱，并不喜欢还钱，所以导致每一个短期债务周期经济增长和债务都将超过前一个周期，最终出现长期债务周期。</li><li>当处于繁荣期，也就是经济上升期时，收入和债务都会持续增加，最终导致经济泡沫。开始进入经济下行周期。</li></ul><h4 id="长期债务周期"><a href="#长期债务周期" class="headerlink" title="长期债务周期"></a>长期债务周期</h4><ul><li><p>可长达70年。</p></li><li><p>在长期债务周期中，债务终将会过于庞大，最终无法偿还。借款人停止放贷，借款人停止借贷。开始经济的下行周期。开始去杠杆化。这一切问题的原因在于债务负担过于沉重。</p></li></ul><h5 id="减轻债务"><a href="#减轻债务" class="headerlink" title="减轻债务"></a>减轻债务</h5><ul><li><p>削减支出</p><ul><li>停止新的债务，偿还削减已有债务，看起来这样是可行的。</li><li>但是实际上不可行，因为一个人的支出，在另一个人那里就是收入了。如果削减支出，那么你的收入也会相应减少，每个人，每个企业，和国家的收入都将减少，导致收入根本无法偿还债务，最终导致通货紧缩。</li></ul></li><li><p>减少债务</p><ul><li>贷款人无法偿还银行贷款，人们会就会担心银行无法返还存款，就会发生挤兑。最终个人，企业，银行都会发生债务违约，进入大萧条。非常危险。</li><li>债务重组，贷款方通过延长偿还时间，或降低贷款利息，或减少还款，以免血本无归。合约将会被破环，债务消失。但是，一个人的支出就是另一个人的收入，并且会导致资产更严重的缩水。最终仍然会导致严重的通货紧缩。</li><li>这一切最终会反应到政府上，但是实际上政府和个人也一样。。。</li></ul></li><li><p>财务再分配</p><ul><li>将富人的财富分配给穷人，最终导致富人与穷人的对立，导致各种社会问题。</li></ul></li><li><p>发行货币</p><ul><li>央行开动印钞机~但只能购买金融资产</li><li>中央政府~向人们送钱，搞基建。增加人们的收入，增加了政府的债务，但是会降低社会总债务负担。</li><li>会导致通货膨胀~</li></ul><p>减轻债务去杠杆化，维持平衡。避免恶性通货膨胀。</p><p>简单来说，我觉得很难。。。。。</p></li></ul><p><img src="https://pic.imgdb.cn/item/5eaedd92c2a9a83be5e0ea8e.png" alt="image-20200503230447802"></p><hr><h2 id="After-reading（读后感）"><a href="#After-reading（读后感）" class="headerlink" title="After reading（读后感）"></a>After reading（读后感）</h2><ul><li>搞清楚我们处于哪个阶段很重要，逆势蓄积力量，顺势厚积薄发</li><li>运气真的很重要，当我们没有足够的运气时，可以尝试用脑子补回来。。。</li></ul>]]></content>
+    
+    
+    <categories>
+      
+      <category>读书</category>
+      
+    </categories>
+    
+    
+    <tags>
+      
+      <tag>经济</tag>
+      
+      <tag>读书</tag>
+      
+    </tags>
+    
+  </entry>
+  
+  
+  
+  <entry>
+    <title>Blender进行实景合成</title>
+    <link href="/2020/05/03/2020-05-03-blender%E5%AE%9E%E6%99%AF%E5%90%88%E6%88%90/"/>
+    <url>/2020/05/03/2020-05-03-blender%E5%AE%9E%E6%99%AF%E5%90%88%E6%88%90/</url>
+    
+    <content type="html"><![CDATA[<h3 id="实景合成、"><a href="#实景合成、" class="headerlink" title="实景合成、"></a>实景合成、</h3><p>blender进行实景合成。</p><iframe src="//player.bilibili.com/player.html?aid=753102947&bvid=BV1hk4y1k7av&cid=186780809&page=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true" height='500' width='100%'> </iframe><p><img src="https://pic.imgdb.cn/item/5eb00ef1c2a9a83be5c97f9d.png" alt="微信图片_20200504204537"></p><h3 id="简单讲一下制作过程"><a href="#简单讲一下制作过程" class="headerlink" title="简单讲一下制作过程"></a>简单讲一下制作过程</h3><p>这里我只用到了Blender，Blender还是很强的啊~哈哈</p><p>首先你需要有一个简单的想法，例如外星人入侵啦，二次元与三次元的互动啊~ 也可以用来展示建筑啊，产品什么的~</p><p>然后我们就需要一段基本素材了~ 素材清晰，不存在严重变形，这是制作成功的前提啊，不然没法正常跟踪~</p><p>导入Blender，转为序列帧，重新导入。</p><p>跟踪反求摄影机路径或进行物体跟踪~</p><p>建立工作平面就可以开始添加你需要的模型了~</p><p>合成导出就行~</p>]]></content>
+    
+    
+    <categories>
+      
+      <category>渲染</category>
+      
+      <category>视频</category>
+      
+    </categories>
+    
+    
+    <tags>
+      
+      <tag>教程</tag>
+      
+      <tag>计算机</tag>
+      
+      <tag>视频</tag>
+      
+    </tags>
+    
+  </entry>
+  
+  
+  
+  <entry>
+    <title>blender封闭空间外部光照</title>
+    <link href="/2020/04/14/2020-04-14-blender%E5%B0%81%E9%97%AD%E7%A9%BA%E9%97%B4%E5%A4%96%E9%83%A8%E5%85%89%E7%85%A7/"/>
+    <url>/2020/04/14/2020-04-14-blender%E5%B0%81%E9%97%AD%E7%A9%BA%E9%97%B4%E5%A4%96%E9%83%A8%E5%85%89%E7%85%A7/</url>
+    
+    <content type="html"><![CDATA[<h3 id="？无光源的封闭场景中，室外光线穿透玻璃"><a href="#？无光源的封闭场景中，室外光线穿透玻璃" class="headerlink" title="？无光源的封闭场景中，室外光线穿透玻璃"></a>？无光源的封闭场景中，室外光线穿透玻璃</h3><p>增加玻璃后内部光线严重不足，阴影锐度降低，噪点增加</p><ol><li>玻璃内部增加光源。</li><li>使用进口光，类似max中的天光？？（这个我尝试后效果并不理想，不知道是我哪弄错了还是怎么回是）</li><li>给玻璃添加光程节点。</li></ol><h3 id="看图-光程"><a href="#看图-光程" class="headerlink" title="看图-光程"></a>看图-光程</h3><p>只添加了一个玻璃节点</p><p><img src="https://pic.imgdb.cn/item/5e9527eac2a9a83be57d820a.png" alt="玻璃"></p><p>删除玻璃，窗户镂空</p><p><img src="https://pic.imgdb.cn/item/5e9527dac2a9a83be57d732e.png" alt="无玻璃"></p><p>添加光程节点</p><p><img src="https://pic.imgdb.cn/item/5e9527f9c2a9a83be57d8fee.png" alt="光程"></p><blockquote><p>以上不难看出，想保证室外光照，又想保留玻璃的质感。</p><p>使用光程节点是不错的选择。</p></blockquote><h3 id="看图-进口光"><a href="#看图-进口光" class="headerlink" title="看图-进口光"></a>看图-进口光</h3><p>进口光，理论上应该和vray的天光入口类似，但是不知道为何，并没有什么效果。。还是我使用方式不对？</p><p><img src="https://pic.imgdb.cn/item/5e952c32c2a9a83be58153c7.png" alt="进口光"></p><p>添加进口光</p><p><img src="https://pic.imgdb.cn/item/5e952b4cc2a9a83be580b055.png" alt="进口光-光程"></p><p>添加进口光</p><p><img src="https://pic.imgdb.cn/item/5e952b43c2a9a83be580a791.png" alt="进口光-玻璃"></p><blockquote><p>还是不太懂进口光的作用，也没感觉到采样的变化。</p></blockquote><h3 id="最平常的做法，还是增加内部光照"><a href="#最平常的做法，还是增加内部光照" class="headerlink" title="最平常的做法，还是增加内部光照~~~"></a>最平常的做法，还是增加内部光照~~~</h3><p>在窗口增加内部光照，噪点降下去了，亮度提起来了，但是不符合自然光照规律了~~</p><p><img src="https://pic.imgdb.cn/item/5e952e8cc2a9a83be582cdb3.png" alt="窗口增加光照"></p><hr><h3 id="小结"><a href="#小结" class="headerlink" title="小结"></a>小结</h3><p>建议以上几种方法结合使用，根据不同的情况采用不同的方法，以求最佳效果。</p><p>光程节点能够在保证玻璃质感的同时实现最大光照。是挺不错的方法。</p><p>以下是光程节点的参考。</p><p><img src="https://pic.imgdb.cn/item/5e952f6ac2a9a83be58357b2.png" alt="节点示意"></p>]]></content>
+    
+    
+    <categories>
+      
+      <category>教程</category>
+      
+    </categories>
+    
+    
+    <tags>
+      
+      <tag>blender</tag>
+      
+      <tag>学习</tag>
+      
+    </tags>
+    
+  </entry>
+  
+  
+  
+  <entry>
+    <title>3dsmax安装下载问题</title>
+    <link href="/2020/04/13/2020-04-13-3dsmax%E4%BB%8B%E7%BB%8D%E5%AE%89%E8%A3%85%E4%B8%8B%E8%BD%BD%E9%97%AE%E9%A2%98/"/>
+    <url>/2020/04/13/2020-04-13-3dsmax%E4%BB%8B%E7%BB%8D%E5%AE%89%E8%A3%85%E4%B8%8B%E8%BD%BD%E9%97%AE%E9%A2%98/</url>
+    
+    <content type="html"><![CDATA[<h2 id="Autodesk-3ds-max"><a href="#Autodesk-3ds-max" class="headerlink" title="Autodesk 3ds max"></a>Autodesk 3ds max</h2><h3 id="软件介绍"><a href="#软件介绍" class="headerlink" title="软件介绍"></a>软件介绍</h3><p>  3D Studio Max，常简称为3d Max或3ds MAX，是Discreet公司开发的（后被Autodesk公司合并）基于PC系统的三维动画渲染和制作软件。其前身是基于DOS操作系统的3D Studio系列软件。在Windows NT出现以前，工业级的CG制作被SGI图形工作站所垄断。3D Studio Max + Windows NT组合的出现一下子降低了CG制作的门槛，首先开始运用在电脑游戏中的动画制作，后更进一步开始参与影视片的特效制作，例如X战警II，最后的武士等。在Discreet 3Ds max 7后，正式更名为Autodesk 3ds Max 最新版本是3ds max 2021</p><h3 id="安装教程"><a href="#安装教程" class="headerlink" title="安装教程"></a>安装教程</h3><p> 建议使用正版，学生可以申请学生版，很简单。</p><ul><li><p>官网直接下载安装程序，会给你一个10m左右的文件，双击安装。。这个是在线安装，请保证网速良好，安装时间可能很长，请耐心等待。</p></li><li><p>下载下面列出的安装包，是分卷压缩文件，请勿改名，放在同一个文件夹内，双击尾号为001的文件，开始自解压，完成后会自动进入安装程序。</p></li><li><p>正常情况下就安装完了。<a href="">错误解决办法</a></p></li><li><p>破解激活请查看破解教程。<a href="">破解激活教程</a></p></li><li><p>安装VRay渲染器请查看VRay安装教程。<a href="">VRay安装教程</a></p><h3 id="下载地址"><a href="#下载地址" class="headerlink" title="下载地址"></a>下载地址</h3></li><li><p>最新版下载地址（下面4个文件全部下载）<br>官网下载地址<br><a href="https://trial2.autodesk.com/NetSWDLD/2021/3DSMAX/35156605-CE91-4AF6-8207-56211CB30369/SFX/Autodesk_3ds_Max_2021_EFGJKPS_Win_64bit_001_004.sfx.exe">文件001</a> <a href="https://trial2.autodesk.com/NetSWDLD/2021/3DSMAX/35156605-CE91-4AF6-8207-56211CB30369/SFX/Autodesk_3ds_Max_2021_EFGJKPS_Win_64bit_002_004.sfx.exe">文件002</a> <a href="https://trial2.autodesk.com/NetSWDLD/2021/3DSMAX/35156605-CE91-4AF6-8207-56211CB30369/SFX/Autodesk_3ds_Max_2021_EFGJKPS_Win_64bit_003_004.sfx.exe">文件003</a> <a href="https://trial2.autodesk.com/NetSWDLD/2021/3DSMAX/35156605-CE91-4AF6-8207-56211CB30369/SFX/Autodesk_3ds_Max_2021_EFGJKPS_Win_64bit_004_004.sfx.exe">文件004</a></p></li><li><p>历史版本<br>官网地址直接复制链接打开迅雷即可</p></li><li><p><strong>2021</strong></p><ul><li><details><summary>官网下载地址</summary>https://trial2.autodesk.com/NetSWDLD/2021/3DSMAX/35156605-CE91-4AF6-8207-56211CB30369/SFX/Autodesk_3ds_Max_2021_EFGJKPS_Win_64bit_001_004.sfx.exehttps://trial2.autodesk.com/NetSWDLD/2021/3DSMAX/35156605-CE91-4AF6-8207-56211CB30369/SFX/Autodesk_3ds_Max_2021_EFGJKPS_Win_64bit_002_004.sfx.exehttps://trial2.autodesk.com/NetSWDLD/2021/3DSMAX/35156605-CE91-4AF6-8207-56211CB30369/SFX/Autodesk_3ds_Max_2021_EFGJKPS_Win_64bit_003_004.sfx.exehttps://trial2.autodesk.com/NetSWDLD/2021/3DSMAX/35156605-CE91-4AF6-8207-56211CB30369/SFX/Autodesk_3ds_Max_2021_EFGJKPS_Win_64bit_004_004.sfx.exe</details></li><li><p><a href="https://pan.baidu.com/s/1crGf_jy2-kPI6re1z6p5QQ">百度网盘下载</a> —-提取码：krrb</p></li></ul></li><li><p><strong>2020</strong></p><ul><li><a href="https://www.autodesk.com.cn/">官网下载地址</a></li><li><a href="https://pan.baidu.com/s/13o9P7qZqAbj2o3UpxA96Kw">百度网盘下载</a> —- 提取码: huce</li></ul></li></ul>]]></content>
+    
+    
+    <categories>
+      
+      <category>教程</category>
+      
+    </categories>
+    
+    
+    <tags>
+      
+      <tag>3DSMAX</tag>
+      
+      <tag>软件安装</tag>
+      
+    </tags>
+    
+  </entry>
+  
+  
+  
+  <entry>
+    <title>Web3D榫卯</title>
+    <link href="/2020/03/31/2020-03-31-%E6%A6%AB%E5%8D%AF/"/>
+    <url>/2020/03/31/2020-03-31-%E6%A6%AB%E5%8D%AF/</url>
+    
+    <content type="html"><![CDATA[<h3 id="榫卯"><a href="#榫卯" class="headerlink" title="榫卯"></a>榫卯</h3><ul><li>简单的做个了榫卯结构的互动解析。</li></ul><iframe src="https://amorspem.gitee.io/verge3d/sunmao/" frameborder="no" width="100%" height="500" ></iframe><h3 id="制作过程"><a href="#制作过程" class="headerlink" title="制作过程"></a>制作过程</h3><ul><li><p><code>blender</code>制作模型和拆解<code>uv</code>。</p><p><img src="https://pic.imgdb.cn/item/5e83003e504f4bcb040ce435.png" alt="blender"></p></li><li><p><code>Substance Painter</code>制作贴图并烘焙。</p><p><img src="https://pic.imgdb.cn/item/5e82ff1d504f4bcb040c0ee0.png"></p></li><li><p><code>verge3d</code>来制作web3d效果。</p><p><img src="https://pic.imgdb.cn/item/5e836f0d504f4bcb0469165a.png"></p></li></ul>]]></content>
+    
+    
+    <categories>
+      
+      <category>渲染</category>
+      
+      <category>web3d</category>
+      
+    </categories>
+    
+    
+    <tags>
+      
+      <tag>教程</tag>
+      
+      <tag>计算机</tag>
+      
+      <tag>web3d</tag>
+      
+    </tags>
+    
+  </entry>
+  
+  
+  
+  <entry>
+    <title>Verge3D实现web3d浏览互动</title>
+    <link href="/2020/03/28/2020-03-28-verge3d/"/>
+    <url>/2020/03/28/2020-03-28-verge3d/</url>
+    
+    <content type="html"><![CDATA[<h3 id="最近发现了个好玩的"><a href="#最近发现了个好玩的" class="headerlink" title="最近发现了个好玩的~"></a>最近发现了个好玩的~</h3><ul><li><p>原来网页上的三维互动是这样搞的…</p></li><li><p>随便试了一下，还是很有趣的。</p></li><li><p>以后做展示的时候更方便了，而且还能互动。</p></li></ul><iframe src="https://amorspem.gitee.io/verge3d/table/" frameborder="no" width="100%" height="500" ></iframe><h3 id="软件verge3d"><a href="#软件verge3d" class="headerlink" title="软件verge3d"></a>软件verge3d</h3><ul><li>软件很酷，操作真的很简单，而且是可视化编程，用的也是<code>js</code>。</li><li>能实现材质的替换和场景的互动，有点强。</li><li>支持<code>3DSmax</code>和<code>Blender</code>理论上其他三维软件应该都能支持。</li><li>个人使用免费。。。</li></ul><blockquote><p><a href="https://www.soft8soft.com/cn/">verge3d官网链接</a></p></blockquote>]]></content>
+    
+    
+    <categories>
+      
+      <category>渲染</category>
+      
+      <category>web3d</category>
+      
+    </categories>
+    
+    
+    <tags>
+      
+      <tag>教程</tag>
+      
+      <tag>计算机</tag>
+      
+      <tag>web3d</tag>
+      
+    </tags>
+    
+  </entry>
+  
+  
+  
+  <entry>
+    <title>查询并保存电脑已安装软件</title>
+    <link href="/2020/03/21/2020-03-25-%E5%86%99%E4%B8%80%E4%B8%AA%E5%B0%8F%E7%A8%8B%E5%BA%8F/"/>
+    <url>/2020/03/21/2020-03-25-%E5%86%99%E4%B8%80%E4%B8%AA%E5%B0%8F%E7%A8%8B%E5%BA%8F/</url>
+    
+    <content type="html"><![CDATA[<p>将电脑安装的所有软件的安装时间，版本，名称全部记录到表格</p><h3 id="思路"><a href="#思路" class="headerlink" title="思路"></a>思路</h3><p>思路其实很简单</p><p>读取系统信息 —&gt; 处理数据 —&gt; 生成表格</p><p>但是有多台计算机，所以还有封装与分发。</p><h3 id="开始"><a href="#开始" class="headerlink" title="开始"></a>开始</h3><h4 id="获取数据"><a href="#获取数据" class="headerlink" title="获取数据"></a>获取数据</h4><ul><li><p>有通过注册表，有通过<code>cmd</code>命令的。</p></li><li><p>有的数据不全，搞到头大。</p></li><li><p>最后通过WMI获得系统安装的软件，能获取到信息就行~</p></li></ul><figure class="highlight powershell"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><code class="hljs powershell"><span class="hljs-built_in">Get-WmiObject</span> Win32_Product | <span class="hljs-built_in">Format-List</span> Caption,Description,IdentifyingNumber,InstallDate,InstallLocation,HelpLink,HelpTelephone,InstallSource,Language,LocalPackage,Name,PackageCache,PackageCode,PackageName,ProductID,RegOwner,RegCompany,SKUNumber,Transforms,URLInfoAbout,URLUpdateInfo,Vendor,WordCount,Version<br></code></pre></td></tr></table></figure><h4 id="将数据传递到node-js中。。"><a href="#将数据传递到node-js中。。" class="headerlink" title="将数据传递到node.js中。。"></a>将数据传递到<code>node.js</code>中。。</h4><ul><li><p>一开始我试图保存文件再通过文件传过去，但是很明显，太麻烦了。</p></li><li><p>于是我找了一个在<code>node</code>中运行<code>powershell</code>命令的模块<code>node-powershell</code>。</p></li></ul><figure class="highlight javascript"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br></pre></td><td class="code"><pre><code class="hljs javascript"><span class="hljs-comment">//基本用法，快速开始</span><br><span class="hljs-keyword">const</span> shell = <span class="hljs-built_in">require</span>(<span class="hljs-string">&#x27;node-powershell&#x27;</span>);<br><br><span class="hljs-keyword">let</span> ps = <span class="hljs-keyword">new</span> shell(&#123;<br>executionPolicy: <span class="hljs-string">&#x27;Bypass&#x27;</span>,<br>noProfile: <span class="hljs-literal">true</span><br>&#125;);<br><br>ps.addCommand(<span class="hljs-string">&#x27;echo node-powershell&#x27;</span>)<br>ps.invoke()<br>.then(<span class="hljs-function"><span class="hljs-params">output</span> =&gt;</span> &#123;<br><span class="hljs-built_in">console</span>.log(output);<br>&#125;)<br>.catch(<span class="hljs-function"><span class="hljs-params">err</span> =&gt;</span> &#123;<br><span class="hljs-built_in">console</span>.log(err);<br>ps.dispose();<br>&#125;);<br></code></pre></td></tr></table></figure><h4 id="在node中格式化数据"><a href="#在node中格式化数据" class="headerlink" title="在node中格式化数据"></a>在<code>node</code>中格式化数据</h4><ul><li><p>将字符串格式化整理为可用数据。</p></li><li><p>没找到什么好方法，只能用<code>replace()</code>疯狂修改，有些地方没有通用性，但我又想不到更好的方法。很烦。</p></li><li><p>将字符串先转为<code>json</code>数据，然后转化为对象，最终输出为一个二维数组，为接下来准备。</p></li></ul><figure class="highlight javascript"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br></pre></td><td class="code"><pre><code class="hljs javascript"><span class="hljs-keyword">var</span> ttt = <span class="hljs-string">&#x27;[&#x27;</span>+data.replace(<span class="hljs-regexp">/\r/g</span>,<span class="hljs-string">&quot;\&quot;,\&quot;&quot;</span>)<br>.replace(<span class="hljs-regexp">/\n/g</span>,<span class="hljs-string">&quot;\&quot;,\&quot;&quot;</span>)<br>.replace(<span class="hljs-regexp">/\,\&quot;\&quot;\,/g</span>,<span class="hljs-string">&#x27;\,&#x27;</span>)<br>.replace(<span class="hljs-regexp">/\,\&quot;\&quot;\,/g</span>,<span class="hljs-string">&#x27;&#125;\,&#123;&#x27;</span>)<br>.replace(<span class="hljs-regexp">/:/g</span>,<span class="hljs-string">&#x27;\&quot;:\&quot;&#x27;</span>)<br>.replace(<span class="hljs-regexp">/Name        /g</span>,<span class="hljs-string">&#x27;Name&#x27;</span>)<br>.replace(<span class="hljs-regexp">/InstallDate /g</span>,<span class="hljs-string">&#x27;InstallDate&#x27;</span>)<br>.replace(<span class="hljs-regexp">/Version     /g</span>,<span class="hljs-string">&#x27;Version&#x27;</span>)<br>.slice(<span class="hljs-number">3</span>,-<span class="hljs-number">8</span>)+<span class="hljs-string">&#x27;]&#x27;</span>;<br><span class="hljs-keyword">var</span> obj = <span class="hljs-built_in">JSON</span>.parse(ttt);<br><span class="hljs-comment">//很蠢。。。但我没啥更好的办法了。。。</span><br></code></pre></td></tr></table></figure><ul><li>现在只差将数据输出了~</li></ul><h4 id="数据输出"><a href="#数据输出" class="headerlink" title="数据输出"></a>数据输出</h4><ul><li>因为我想直接输出表格数据，所以找到了个模块<code>node=xlsx</code>，简单好用。</li><li>将二维数组直接利用<code>xlsx</code>直接写入文件即可。</li></ul><h4 id="打包分发"><a href="#打包分发" class="headerlink" title="打包分发"></a>打包分发</h4><ul><li><p>由于不是我使用，并且还在别的电脑上使用，所以我找到了<code>node</code>打包软件<code>pkg</code>，可以直接将node.js项目打包成<code>windows</code>可以直接执行的<code>exe</code>文件（也支持<code>FreeBSD</code>、<code>linux</code>、<code>macos</code>、<code>arm</code>系统），甚至不需要安装<code>Node.js</code>，且无须修改你项目中的任何代码！</p></li><li><p>嗯~ o(<em>￣▽￣</em>)o，这就是我想要的，哈哈~</p></li></ul><h2 id="收获"><a href="#收获" class="headerlink" title="收获"></a>收获</h2><ul><li>哈哈~ 相当开心，虽然才看了两天的<code>node</code>教程，但是捣鼓出来了一个可以用的<code>exe</code>文件，那是相当的爽~</li><li>也学习了很多东西，虽然，很多都是在乱来~哈哈</li><li>文件下载地址 <a href="https://www.lanzous.com/iamho7a">查询电脑已安装软件</a>的软件。。。</li></ul><h2 id="问题"><a href="#问题" class="headerlink" title="问题"></a>问题</h2><ul><li>软件列表不全，只能查询到，安装包由Windows Installer制作，安装过程中调用Windows Installer服务进行安装的软件。</li><li>关于遍历注册表，但是我发现注册表也显示的不全，有些软件并不在这些路径下。</li></ul><figure class="highlight javascript"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><code class="hljs javascript">HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall<br>HKEY_LOCAL_MACHINE\SOFTWARE\Wow6432Node\Microsoft\Windows\CurrentVersion\Uninstall<br></code></pre></td></tr></table></figure><ul><li>好像还是要，遍历注册表来搞。。。。。自闭。。。</li></ul><hr><blockquote><p>参考文档</p><p><a href="https://cloud.tencent.com/developer/article/1402355">node-powershell</a></p><p><a href="https://blog.csdn.net/qq_29594393/article/details/57413815">node-xlsx</a></p><p><a href="https://www.cnblogs.com/mordom/p/8337337.html">pkg</a></p></blockquote>]]></content>
+    
+    
+    <categories>
+      
+      <category>计算机</category>
+      
+    </categories>
+    
+    
+    <tags>
+      
+      <tag>教程</tag>
+      
+      <tag>计算机</tag>
+      
+    </tags>
+    
+  </entry>
+  
+  
+  
+  <entry>
+    <title>利用内存和固态加速硬盘</title>
+    <link href="/2020/03/21/2020-03-19-%E5%88%A9%E7%94%A8%E5%86%85%E5%AD%98%E5%92%8C%E5%9B%BA%E6%80%81%E5%8A%A0%E9%80%9F%E6%9C%BA%E6%A2%B0%E7%A1%AC%E7%9B%98/"/>
+    <url>/2020/03/21/2020-03-19-%E5%88%A9%E7%94%A8%E5%86%85%E5%AD%98%E5%92%8C%E5%9B%BA%E6%80%81%E5%8A%A0%E9%80%9F%E6%9C%BA%E6%A2%B0%E7%A1%AC%E7%9B%98/</url>
+    
+    <content type="html"><![CDATA[<p>利用内存和固态加速机械硬盘</p><p><a href="https://www.romexsoftware.com/">软件官网</a></p><iframe src="//player.bilibili.com/player.html?aid=97634631&cid=166673192&page=1&high_quality=1&danmaku=0" allowfullscreen="allowfullscreen" width="100%" height="500" scrolling="no" frameborder="0" sandbox="allow-top-navigation allow-same-origin allow-forms allow-scripts"></iframe>]]></content>
+    
+    
+    <categories>
+      
+      <category>计算机</category>
+      
+    </categories>
+    
+    
+    <tags>
+      
+      <tag>教程</tag>
+      
+      <tag>计算机</tag>
+      
+    </tags>
+    
+  </entry>
+  
+  
+  
+  <entry>
+    <title>吃个茶叶蛋</title>
+    <link href="/2020/03/16/2020-03-13-blender%E7%BB%83%E4%B9%A0/"/>
+    <url>/2020/03/16/2020-03-13-blender%E7%BB%83%E4%B9%A0/</url>
+    
+    <content type="html"><![CDATA[<h3 id="做俩茶叶蛋吃"><a href="#做俩茶叶蛋吃" class="headerlink" title="做俩茶叶蛋吃~"></a>做俩茶叶蛋吃~</h3><p>练习一下材质</p><p><img src="https://pic.imgdb.cn/item/5e6f7bace83c3a1e3a9259b1.png"></p><p><img src="https://pic.imgdb.cn/item/5e6f812ce83c3a1e3a956808.png" alt="image-20200316211127111"></p><p><img src="https://pic.imgdb.cn/item/5e6f7b93e83c3a1e3a924c70.png"></p>]]></content>
+    
+    
+    <categories>
+      
+      <category>渲染</category>
+      
+    </categories>
+    
+    
+    <tags>
+      
+      <tag>效果图</tag>
+      
+      <tag>blender</tag>
+      
+    </tags>
+    
+  </entry>
+  
+  
+  
+  <entry>
+    <title>我做了个刮胡刀？</title>
+    <link href="/2020/02/03/2020-02-03-%E5%88%AE%E8%83%A1%E5%88%80/"/>
+    <url>/2020/02/03/2020-02-03-%E5%88%AE%E8%83%A1%E5%88%80/</url>
+    
+    <content type="html"><![CDATA[<h3 id="躲避瘟疫"><a href="#躲避瘟疫" class="headerlink" title="躲避瘟疫"></a>躲避瘟疫</h3><p>无聊做了个刮胡刀？</p><p><img src="https://pic.imgdb.cn/item/5e67997998271cb2b8c9ee92.png"></p>]]></content>
+    
+    
+    <categories>
+      
+      <category>渲染</category>
+      
+    </categories>
+    
+    
+    <tags>
+      
+      <tag>效果图</tag>
+      
+      <tag>blender</tag>
+      
+    </tags>
+    
+  </entry>
+  
+  
+  
+  <entry>
+    <title>几何建筑</title>
+    <link href="/2019/12/15/2019-12-15-%E5%87%A0%E4%BD%95%E5%BB%BA%E7%AD%91%E7%BE%A4/"/>
+    <url>/2019/12/15/2019-12-15-%E5%87%A0%E4%BD%95%E5%BB%BA%E7%AD%91%E7%BE%A4/</url>
+    
+    <content type="html"><![CDATA[<p><img src="https://pic.imgdb.cn/item/5e67977a98271cb2b8c922ed.png"><br><img src="https://pic.imgdb.cn/item/5e67977c98271cb2b8c9239a.png"></p><p><img src="https://pic.imgdb.cn/item/5e6797a198271cb2b8c931ea.png"><br><img src="https://pic.imgdb.cn/item/5e6797a398271cb2b8c93286.png"></p><p><img src="https://pic.imgdb.cn/item/5e6798c598271cb2b8c9a90b.png"></p>]]></content>
+    
+    
+    <categories>
+      
+      <category>渲染</category>
+      
+    </categories>
+    
+    
+    <tags>
+      
+      <tag>3DSMAX</tag>
+      
+      <tag>效果图</tag>
+      
+    </tags>
+    
+  </entry>
+  
+  
+  
+  <entry>
+    <title>产品</title>
+    <link href="/2019/07/25/2019-11-26-%E6%96%87%E5%88%9B/"/>
+    <url>/2019/07/25/2019-11-26-%E6%96%87%E5%88%9B/</url>
+    
+    <content type="html"><![CDATA[<h3 id="一个供小朋友使用的产品"><a href="#一个供小朋友使用的产品" class="headerlink" title="一个供小朋友使用的产品~"></a>一个供小朋友使用的产品~</h3><p><img src="https://pic.imgdb.cn/item/5e67965798271cb2b8c8ac2d.jpg"></p><p><img src="https://pic.imgdb.cn/item/5e67967e98271cb2b8c8b971.png"></p><p><img src="https://pic.imgdb.cn/item/5e6796a698271cb2b8c8c828.png"></p><p><img src="https://pic.imgdb.cn/item/5e6796d198271cb2b8c8d6ca.png"></p><p><img src="https://pic.imgdb.cn/item/5e6796dd98271cb2b8c8dd6f.png"></p>]]></content>
+    
+    
+    <categories>
+      
+      <category>渲染</category>
+      
+    </categories>
+    
+    
+    <tags>
+      
+      <tag>3DSMAX</tag>
+      
+      <tag>效果图</tag>
+      
+    </tags>
+    
+  </entry>
+  
+  
+  
+  <entry>
+    <title>古建筑群</title>
+    <link href="/2019/07/25/2019-11-01-%E5%8F%A4%E5%BB%BA%E7%AD%91%E7%BE%A4/"/>
+    <url>/2019/07/25/2019-11-01-%E5%8F%A4%E5%BB%BA%E7%AD%91%E7%BE%A4/</url>
+    
+    <content type="html"><![CDATA[<h3 id="开元寺"><a href="#开元寺" class="headerlink" title="开元寺"></a>开元寺</h3><hr><p><img src="https://pic.imgdb.cn/item/5e67919898271cb2b8c659c5.png"></p><p><img src="https://pic.imgdb.cn/item/5e67924d98271cb2b8c6b7b5.png"></p><h3 id="城隍庙"><a href="#城隍庙" class="headerlink" title="城隍庙"></a>城隍庙</h3><hr><p><img src="https://pic.imgdb.cn/item/5e67917b98271cb2b8c65054.png"></p><p><img src="https://pic.imgdb.cn/item/5e6792b098271cb2b8c6e59a.png"></p><p><img src="https://pic.imgdb.cn/item/5e6792cf98271cb2b8c6f7d3.png"></p><h3 id="孔庙"><a href="#孔庙" class="headerlink" title="孔庙"></a>孔庙</h3><hr><p><img src="https://pic.imgdb.cn/item/5e6791ce98271cb2b8c676be.png"></p><p><img src="https://pic.imgdb.cn/item/5e67930898271cb2b8c71e07.jpg"></p><p><img src="https://pic.imgdb.cn/item/5e67933298271cb2b8c7382f.jpg"></p><h3 id="衙门"><a href="#衙门" class="headerlink" title="衙门"></a>衙门</h3><hr><p><img src="https://pic.imgdb.cn/item/5d9c894f451253d17858e44d.jpg"></p><p><img src="https://pic.imgdb.cn/item/5d9c894f451253d17858e455.jpg"></p><p><img src="https://pic.imgdb.cn/item/5d9c894f451253d17858e457.jpg"></p><p><img src="https://pic.imgdb.cn/item/5d9c894f451253d17858e433.jpg"></p><p><img src="https://pic.imgdb.cn/item/5d9c894f451253d17858e447.jpg"></p><p><img src="https://pic.imgdb.cn/item/5d9c894f451253d17858e43d.jpg"></p>]]></content>
+    
+    
+    <categories>
+      
+      <category>环境艺术</category>
+      
+    </categories>
+    
+    
+    <tags>
+      
+      <tag>3DSMAX</tag>
+      
+      <tag>效果图</tag>
+      
+    </tags>
+    
+  </entry>
+  
+  
+  
+  <entry>
+    <title>古建筑单体</title>
+    <link href="/2019/07/25/2019-07-25-%E5%8F%A4%E5%BB%BA%E7%AD%91/"/>
+    <url>/2019/07/25/2019-07-25-%E5%8F%A4%E5%BB%BA%E7%AD%91/</url>
+    
+    <content type="html"><![CDATA[<h3 id="古建筑单体"><a href="#古建筑单体" class="headerlink" title="古建筑单体"></a>古建筑单体</h3><p><img src="https://pic.imgdb.cn/item/5e678fd898271cb2b8c59b3f.png"></p><p><img src="https://pic.imgdb.cn/item/5e678ff798271cb2b8c5adae.png"></p><p><img src="https://pic.imgdb.cn/item/5e678e7d98271cb2b8c501a8.png"></p><p><img src="https://pic.imgdb.cn/item/5e67910998271cb2b8c61fd8.png"></p>]]></content>
+    
+    
+    <categories>
+      
+      <category>环境艺术</category>
+      
+    </categories>
+    
+    
+    <tags>
+      
+      <tag>3DSMAX</tag>
+      
+      <tag>效果图</tag>
+      
+    </tags>
+    
+  </entry>
+  
+  
+  
+  <entry>
+    <title>北京现代部分展示</title>
+    <link href="/2019/05/10/2019-05-15-%E5%8C%97%E4%BA%AC%E7%8E%B0%E4%BB%A3/"/>
+    <url>/2019/05/10/2019-05-15-%E5%8C%97%E4%BA%AC%E7%8E%B0%E4%BB%A3/</url>
+    
+    <content type="html"><![CDATA[<h3 id="北京现代部分展厅展示"><a href="#北京现代部分展厅展示" class="headerlink" title="北京现代部分展厅展示"></a>北京现代部分展厅展示</h3><p><img src="https://pic.imgdb.cn/item/5e6784da98271cb2b8c0d50a.jpg"></p><p><img src="https://pic.imgdb.cn/item/5e6784ef98271cb2b8c0dbf5.jpg"></p><p><img src="https://pic.imgdb.cn/item/5e6784fd98271cb2b8c0e129.jpg"></p><p><img src="https://pic.imgdb.cn/item/5e67850a98271cb2b8c0e58b.jpg"></p><p><img src="https://pic.imgdb.cn/item/5e677d6a98271cb2b8bde475.png"></p><p><img src="https://pic.imgdb.cn/item/5e677d7498271cb2b8bde762.png"></p><p><img src="https://pic.imgdb.cn/item/5e677d9698271cb2b8bdf338.png"></p>]]></content>
+    
+    
+    <categories>
+      
+      <category>环境艺术</category>
+      
+    </categories>
+    
+    
+    <tags>
+      
+      <tag>3DSMAX</tag>
+      
+      <tag>效果图</tag>
+      
+    </tags>
+    
+  </entry>
+  
+  
+  
+  <entry>
+    <title>肥仔快乐水</title>
+    <link href="/2019/03/09/2019-03-09-%E5%8F%AF%E4%B9%90%E7%93%B6/"/>
+    <url>/2019/03/09/2019-03-09-%E5%8F%AF%E4%B9%90%E7%93%B6/</url>
+    
+    <content type="html"><![CDATA[<h3 id="肥仔快乐水"><a href="#肥仔快乐水" class="headerlink" title="肥仔快乐水"></a>肥仔快乐水</h3><p>闲来无事，最近快乐水越喝越多。。。控制一下摄入，做个快乐水解解馋~</p><p>上面很多红点，应该是玻璃光程不够导致的~</p><p>忘记把瓶盖加上了~</p><p><img src="https://pic.imgdb.cn/item/5e5fa03e98271cb2b820d813.png"></p><p><img src="https://pic.imgdb.cn/item/5e5fa07998271cb2b820e69c.jpg"></p>]]></content>
+    
+    
+    <categories>
+      
+      <category>渲染</category>
+      
+    </categories>
+    
+    
+    <tags>
+      
+      <tag>效果图</tag>
+      
+      <tag>blender</tag>
+      
+      <tag>可乐</tag>
+      
+    </tags>
+    
+  </entry>
+  
+  
+  
+  <entry>
+    <title>一堆瓶子</title>
+    <link href="/2019/03/08/2019-03-08-%E4%B8%80%E5%A0%86%E7%93%B6%E5%AD%90/"/>
+    <url>/2019/03/08/2019-03-08-%E4%B8%80%E5%A0%86%E7%93%B6%E5%AD%90/</url>
+    
+    <content type="html"><![CDATA[<h3 id="瓶子大集合"><a href="#瓶子大集合" class="headerlink" title="瓶子大集合"></a>瓶子大集合</h3><p>练习了几个小瓶子~</p><p><img src="https://pic.imgdb.cn/item/5e5fa56498271cb2b8226ea5.png"></p><p><img src="https://pic.imgdb.cn/item/5e5fa74898271cb2b8231254.jpg"></p><p><img src="https://pic.imgdb.cn/item/5e5fa57698271cb2b82275a3.png"></p>]]></content>
+    
+    
+    <categories>
+      
+      <category>渲染</category>
+      
+    </categories>
+    
+    
+    <tags>
+      
+      <tag>效果图</tag>
+      
+      <tag>室外</tag>
+      
+      <tag>blender</tag>
+      
+    </tags>
+    
+  </entry>
+  
+  
+  
+  <entry>
+    <title>vivo部分展示</title>
+    <link href="/2018/12/15/2018-12-12-vivo%E5%90%88%E9%9B%86/"/>
+    <url>/2018/12/15/2018-12-12-vivo%E5%90%88%E9%9B%86/</url>
+    
+    <content type="html"><![CDATA[<h3 id="vivo部分集合展示"><a href="#vivo部分集合展示" class="headerlink" title="vivo部分集合展示"></a>vivo部分集合展示</h3><hr><p><img src="https://pic.imgdb.cn/item/5e677b4998271cb2b8bd04e9.jpg"></p><p><img src="https://pic.imgdb.cn/item/5e677bb798271cb2b8bd2b7f.jpg"></p><p><img src="https://pic.imgdb.cn/item/5e677bcc98271cb2b8bd3204.jpg"></p><hr><p><img src="https://pic.imgdb.cn/item/5e677bf098271cb2b8bd3c9d.jpg"></p><p><img src="https://pic.imgdb.cn/item/5e677bfb98271cb2b8bd4020.jpg"></p><p><img src="https://pic.imgdb.cn/item/5e677c0698271cb2b8bd4366.jpg"></p><hr><p><img src="https://pic.imgdb.cn/item/5e677c2198271cb2b8bd4c5c.png"></p><p><img src="https://pic.imgdb.cn/item/5e677c2898271cb2b8bd4ee2.png"></p><p><img src="https://pic.imgdb.cn/item/5e677c3198271cb2b8bd518e.png"></p><hr>]]></content>
+    
+    
+    <categories>
+      
+      <category>环境艺术</category>
+      
+    </categories>
+    
+    
+    <tags>
+      
+      <tag>3DSMAX</tag>
+      
+      <tag>效果图</tag>
+      
+    </tags>
+    
+  </entry>
+  
+  
+  
+  <entry>
+    <title>手表</title>
+    <link href="/2018/12/15/2018-12-15-%E6%89%8B%E8%A1%A8/"/>
+    <url>/2018/12/15/2018-12-15-%E6%89%8B%E8%A1%A8/</url>
+    
+    <content type="html"><![CDATA[<h3 id="一颗手表-gt-lt"><a href="#一颗手表-gt-lt" class="headerlink" title="一颗手表     &gt;_&lt;"></a>一颗手表     &gt;_&lt;</h3><p>上来第一张是原图，后面是临摹的结果~</p><p><img src="https://pic.imgdb.cn/item/5e5fb01e98271cb2b8296289.png"></p><p>这个图做的时间还是相当比较长的，主要是有些东西还不是很熟悉。一个新的软件，还需要一定的熟悉时间，不过这个软件已经展示了令我感到恐怖的实力了~~</p><p><img src="https://pic.imgdb.cn/item/5e5fbd6a98271cb2b8322938.jpg"></p><p><img src="https://pic.imgdb.cn/item/5e5fafe698271cb2b8294a89.png"></p><p><img src="https://pic.imgdb.cn/item/5e5fafd398271cb2b829412e.png"></p>]]></content>
+    
+    
+    <categories>
+      
+      <category>渲染</category>
+      
+    </categories>
+    
+    
+    <tags>
+      
+      <tag>效果图</tag>
+      
+      <tag>blender</tag>
+      
+    </tags>
+    
+  </entry>
+  
+  
+  
+  <entry>
+    <title>沙发单品</title>
+    <link href="/2018/10/25/2018-10-25-%E6%B2%99%E5%8F%91%E5%8D%95%E5%93%81/"/>
+    <url>/2018/10/25/2018-10-25-%E6%B2%99%E5%8F%91%E5%8D%95%E5%93%81/</url>
+    
+    <content type="html"><![CDATA[<h3 id="沙发"><a href="#沙发" class="headerlink" title="沙发"></a>沙发</h3><p>一个简单的沙发练习</p><p><img src="https://pic.imgdb.cn/item/5e60d8b798271cb2b8ac2017.png"></p><p><img src="https://pic.imgdb.cn/item/5e60d89998271cb2b8abfd1c.png"></p>]]></content>
+    
+    
+    <categories>
+      
+      <category>渲染</category>
+      
+    </categories>
+    
+    
+    <tags>
+      
+      <tag>3DSMAX</tag>
+      
+      <tag>效果图</tag>
+      
+    </tags>
+    
+  </entry>
+  
+  
+  
+  <entry>
+    <title>早期作品Ⅴ（上学期间）</title>
+    <link href="/2018/10/10/2018-10-10-%E6%97%A9%E6%9C%9F%E4%BD%9C%E5%93%81%E6%95%B4%E7%90%86%E2%85%A4/"/>
+    <url>/2018/10/10/2018-10-10-%E6%97%A9%E6%9C%9F%E4%BD%9C%E5%93%81%E6%95%B4%E7%90%86%E2%85%A4/</url>
+    
+    <content type="html"><![CDATA[<h3 id="美容院？？"><a href="#美容院？？" class="headerlink" title="美容院？？"></a>美容院？？</h3><p><img src="https://pic.imgdb.cn/item/5e60e42898271cb2b8b38496.png"></p><p><img src="https://pic.imgdb.cn/item/5e60e42c98271cb2b8b3873a.png"></p><p><img src="https://pic.imgdb.cn/item/5e60e42498271cb2b8b382e9.png"></p><p><img src="https://pic.imgdb.cn/item/5e60e4a098271cb2b8b3cd51.png"></p><p><img src="https://pic.imgdb.cn/item/5e60e4a598271cb2b8b3d12f.png"></p><p><img src="https://pic.imgdb.cn/item/5e60e54898271cb2b8b4436d.png"></p><h3 id="阶梯教室"><a href="#阶梯教室" class="headerlink" title="阶梯教室"></a>阶梯教室</h3><p><img src="https://pic.imgdb.cn/item/5e60e58098271cb2b8b467ad.png"><br><img src="https://pic.imgdb.cn/item/5e60e58098271cb2b8b467b5.png"><br><img src="https://pic.imgdb.cn/item/5e60e58098271cb2b8b467bd.png"></p>]]></content>
+    
+    
+    <categories>
+      
+      <category>环境艺术</category>
+      
+    </categories>
+    
+    
+    <tags>
+      
+      <tag>3DSMAX</tag>
+      
+      <tag>效果图</tag>
+      
+    </tags>
+    
+  </entry>
+  
+  
+  
+  <entry>
+    <title>早期作品Ⅳ（上学期间）</title>
+    <link href="/2018/10/10/2018-10-10-%E6%97%A9%E6%9C%9F%E4%BD%9C%E5%93%81%E6%95%B4%E7%90%86%E2%85%A3/"/>
+    <url>/2018/10/10/2018-10-10-%E6%97%A9%E6%9C%9F%E4%BD%9C%E5%93%81%E6%95%B4%E7%90%86%E2%85%A3/</url>
+    
+    <content type="html"><![CDATA[<blockquote><p>我现在觉得我当时做的东西还是不少的嘛~虽然做的不很好，但是积累了很多错误的经验啊~~哈哈</p><p>遗憾的是我只保留了效果图，设计过程，草图，平面全都没留存。。</p></blockquote><h3 id="产品-马头灯"><a href="#产品-马头灯" class="headerlink" title="产品-马头灯"></a>产品-马头灯</h3><p><img src="https://pic.imgdb.cn/item/5e5fd7e498271cb2b83e5440.jpg"><br><img src="https://pic.imgdb.cn/item/5e5fd7e498271cb2b83e5445.png"><br><img src="https://pic.imgdb.cn/item/5e5fd7e498271cb2b83e544d.jpg"><br><img src="https://pic.imgdb.cn/item/5e5fd7e498271cb2b83e5453.png"><br><img src="https://pic.imgdb.cn/item/5e5fd7e498271cb2b83e5458.jpg"><br><img src="https://pic.imgdb.cn/item/5e5fd7e498271cb2b83e5460.png"><br><img src="https://pic.imgdb.cn/item/5e5fd7e498271cb2b83e5469.jpg"><br><img src="https://pic.imgdb.cn/item/5e5fd7e498271cb2b83e5471.png"><br><img src="https://pic.imgdb.cn/item/5e5fd7e498271cb2b83e547c.jpg"><br><img src="https://pic.imgdb.cn/item/5e5fd7e498271cb2b83e5484.jpg"><br><img src="https://pic.imgdb.cn/item/5e5fd7e598271cb2b83e548d.png"><br><img src="https://pic.imgdb.cn/item/5e5fd7e598271cb2b83e5497.png"><br><img src="https://pic.imgdb.cn/item/5e5fd7e598271cb2b83e54b0.jpg"><br><img src="https://pic.imgdb.cn/item/5e5fd7e598271cb2b83e54c5.png"></p>]]></content>
+    
+    
+    <categories>
+      
+      <category>环境艺术</category>
+      
+    </categories>
+    
+    
+    <tags>
+      
+      <tag>3DSMAX</tag>
+      
+      <tag>效果图</tag>
+      
+    </tags>
+    
+  </entry>
+  
+  
+  
+  <entry>
+    <title>早期作品Ⅲ（上学期间）</title>
+    <link href="/2018/10/10/2018-10-10-%E6%97%A9%E6%9C%9F%E4%BD%9C%E5%93%81%E6%95%B4%E7%90%86%E2%85%A2/"/>
+    <url>/2018/10/10/2018-10-10-%E6%97%A9%E6%9C%9F%E4%BD%9C%E5%93%81%E6%95%B4%E7%90%86%E2%85%A2/</url>
+    
+    <content type="html"><![CDATA[<h3 id="中式餐厅"><a href="#中式餐厅" class="headerlink" title="中式餐厅"></a>中式餐厅</h3><p>我不知道为何做了这么多中式的东西。。这个好像是我帮别人做的。。。</p><p><img src="https://pic.imgdb.cn/item/5e5fd6a098271cb2b83db5d5.png"><br><img src="https://pic.imgdb.cn/item/5e5fd6a098271cb2b83db5dd.png"><br><img src="https://pic.imgdb.cn/item/5e5fd6a398271cb2b83db766.png"><br><img src="https://pic.imgdb.cn/item/5e5fd6a398271cb2b83db771.png"><br><img src="https://pic.imgdb.cn/item/5e5fd6a398271cb2b83db77e.png"><br><img src="https://pic.imgdb.cn/item/5e5fd6a398271cb2b83db787.png"><br><img src="https://pic.imgdb.cn/item/5e5fd6a398271cb2b83db792.png"></p><h3 id="家装"><a href="#家装" class="headerlink" title="家装"></a>家装</h3><p><img src="https://pic.imgdb.cn/item/5e5fd70598271cb2b83deaf4.png"><br><img src="https://pic.imgdb.cn/item/5e5fd70598271cb2b83deafb.png"><br><img src="https://pic.imgdb.cn/item/5e5fd70598271cb2b83deb08.png"></p><h3 id="一个小店"><a href="#一个小店" class="headerlink" title="一个小店"></a>一个小店</h3><p>给别人帮忙的，发挥了一下我的作用</p><p><img src="https://pic.imgdb.cn/item/5e5fd77498271cb2b83e1cc9.png"></p>]]></content>
+    
+    
+    <categories>
+      
+      <category>环境艺术</category>
+      
+    </categories>
+    
+    
+    <tags>
+      
+      <tag>3DSMAX</tag>
+      
+      <tag>效果图</tag>
+      
+    </tags>
+    
+  </entry>
+  
+  
+  
+  <entry>
+    <title>早期作品Ⅱ（上学期间）</title>
+    <link href="/2018/10/10/2018-10-10-%E6%97%A9%E6%9C%9F%E4%BD%9C%E5%93%81%E6%95%B4%E7%90%86%E2%85%A1/"/>
+    <url>/2018/10/10/2018-10-10-%E6%97%A9%E6%9C%9F%E4%BD%9C%E5%93%81%E6%95%B4%E7%90%86%E2%85%A1/</url>
+    
+    <content type="html"><![CDATA[<h3 id="咖啡厅。。。"><a href="#咖啡厅。。。" class="headerlink" title="咖啡厅。。。"></a>咖啡厅。。。</h3><p>平面图丢了。<br>只剩几张效果图了</p><p>这好像是期中还是什么课程结束做的。。。<br>硬凑出来的。。</p><p><img src="https://pic.imgdb.cn/item/5e5fd24898271cb2b83b3b7c.png"><br><img src="https://pic.imgdb.cn/item/5e5fd24898271cb2b83b3b87.png"><br><img src="https://pic.imgdb.cn/item/5e5fd24898271cb2b83b3b8f.png"><br><img src="https://pic.imgdb.cn/item/5e5fd24898271cb2b83b3b99.png"><br><img src="https://pic.imgdb.cn/item/5e5fd24898271cb2b83b3ba4.png"><br><img src="https://pic.imgdb.cn/item/5e5fd24898271cb2b83b3baa.png"><br><img src="https://pic.imgdb.cn/item/5e5fd24898271cb2b83b3bb7.png"><br><img src="https://pic.imgdb.cn/item/5e5fd24898271cb2b83b3bbf.png"><br><img src="https://pic.imgdb.cn/item/5e5fd24898271cb2b83b3bc8.png"><br><img src="https://pic.imgdb.cn/item/5e5fd24898271cb2b83b3bd0.png"><br><img src="https://pic.imgdb.cn/item/5e5fd14398271cb2b83ab3d9.png"><br><img src="https://pic.imgdb.cn/item/5e5fd2ff98271cb2b83bb538.png"><br><img src="https://pic.imgdb.cn/item/5e5fd2ff98271cb2b83bb543.png"><br><img src="https://pic.imgdb.cn/item/5e5fd2ff98271cb2b83bb54c.png"><br><img src="https://pic.imgdb.cn/item/5e5fd2ff98271cb2b83bb557.png"><br><img src="https://pic.imgdb.cn/item/5e5fd37998271cb2b83bf654.png"><br><img src="https://pic.imgdb.cn/item/5e5fd37998271cb2b83bf65a.png"><br><img src="https://pic.imgdb.cn/item/5e5fd37998271cb2b83bf663.png"><br><img src="https://pic.imgdb.cn/item/5e5fd37998271cb2b83bf66e.png"><br><img src="https://pic.imgdb.cn/item/5e5fd37998271cb2b83bf679.png"><br><img src="https://pic.imgdb.cn/item/5e5fd3a198271cb2b83c1fb8.png"><br><img src="https://pic.imgdb.cn/item/5e5fd3a198271cb2b83c1fc3.png"><br><img src="https://pic.imgdb.cn/item/5e5fd3a198271cb2b83c1fd2.png"><br><img src="https://pic.imgdb.cn/item/5e5fd3a198271cb2b83c1fd9.png"><br><img src="https://pic.imgdb.cn/item/5e5fd3a198271cb2b83c1fe5.png"><br><img src="https://pic.imgdb.cn/item/5e5fd3c698271cb2b83c4193.png"><br><img src="https://pic.imgdb.cn/item/5e5fd3c698271cb2b83c41a0.png"><br><img src="https://pic.imgdb.cn/item/5e5fd3c698271cb2b83c41d8.png"><br><img src="https://pic.imgdb.cn/item/5e5fd3c698271cb2b83c41e2.png"><br><img src="https://pic.imgdb.cn/item/5e5fd3c698271cb2b83c41ea.png"><br><img src="https://pic.imgdb.cn/item/5e5fd3c698271cb2b83c41f2.png"><br><img src="https://pic.imgdb.cn/item/5e5fd3c698271cb2b83c41fd.png"></p>]]></content>
+    
+    
+    <categories>
+      
+      <category>环境艺术</category>
+      
+    </categories>
+    
+    
+    <tags>
+      
+      <tag>3DSMAX</tag>
+      
+      <tag>效果图</tag>
+      
+    </tags>
+    
+  </entry>
+  
+  
+  
+  <entry>
+    <title>早期作品Ⅰ（上学期间）</title>
+    <link href="/2018/10/10/2018-10-10-%E6%97%A9%E6%9C%9F%E4%BD%9C%E5%93%81%E6%95%B4%E7%90%86%E2%85%A0/"/>
+    <url>/2018/10/10/2018-10-10-%E6%97%A9%E6%9C%9F%E4%BD%9C%E5%93%81%E6%95%B4%E7%90%86%E2%85%A0/</url>
+    
+    <content type="html"><![CDATA[<h3 id="古装门头？？？"><a href="#古装门头？？？" class="headerlink" title="古装门头？？？"></a>古装门头？？？</h3><p>哈哈哈，这个门楼P的，无敌p图技术~<br>笑死了~</p><p>真的尽力了，图片就这么大，还随便拍的。。。还想让我去掉车。。。。要不是这鬼地方没有百度全景，我就给它好好p个~~</p><p><img src="https://pic.imgdb.cn/item/5e5fc8fe98271cb2b8372510.jpg"></p><p><img src="https://pic.imgdb.cn/item/5e5fc8fd98271cb2b8372462.jpg"></p><p><img src="https://pic.imgdb.cn/item/5e5fc90098271cb2b837266c.jpg"></p><h3 id="一个办公室"><a href="#一个办公室" class="headerlink" title="一个办公室"></a>一个办公室</h3><p>这个办公室里的绿植，搞得我头都大了~~当时我不会使用代理，也不会优化模型。。。而且，还用的是一个小笔记本，差点疯了。。。渲染了好久好久好久。</p><p><img src="https://pic.imgdb.cn/item/5e5fc91098271cb2b8372f66.png"></p><p><img src="https://pic.imgdb.cn/item/5e5fc90998271cb2b8372b6b.png"></p><p><img src="https://pic.imgdb.cn/item/5e5fc90998271cb2b8372b56.png"></p><p><img src="https://pic.imgdb.cn/item/5e5fc91198271cb2b8372fde.png"></p><p><img src="https://pic.imgdb.cn/item/5e5fc90198271cb2b83726da.png"></p><h3 id="小居室"><a href="#小居室" class="headerlink" title="小居室"></a>小居室</h3><p>第一张好像是单独的一个，但是其余的好像找不到了~~</p><p>后两个是一起的，窗帘惨不忍睹。。。对于这种半透明的物体。上学时真的很头疼。。。</p><p><img src="https://pic.imgdb.cn/item/5e5fc90a98271cb2b8372bee.png"></p><p><img src="https://pic.imgdb.cn/item/5e5fc90c98271cb2b8372ccd.png"></p><p><img src="https://pic.imgdb.cn/item/5e5fc91098271cb2b8372f41.png"></p><h3 id="中式"><a href="#中式" class="headerlink" title="中式"></a>中式</h3><p>很多人对中式装修相当痴迷。。。我也不懂为啥，说实话，中式装修太过于板正，住起来真心不是很舒服。</p><p>。。。。所以有了简中，但是，做不好真挺丑，也不舒服。。。做好，挺难。</p><p>我不懂为啥要黄色的灯。。。不会太奇怪吗？</p><p><img src="https://pic.imgdb.cn/item/5e5fc91198271cb2b8373002.png"></p><p><img src="https://pic.imgdb.cn/item/5e5fc90e98271cb2b8372e98.png"></p><p><img src="https://pic.imgdb.cn/item/5e5fcdc598271cb2b8392dd8.png"></p><h3 id="餐厅"><a href="#餐厅" class="headerlink" title="餐厅"></a>餐厅</h3><p>这个我记得就这一个角度，我只做了这个角度能看到的东西~~</p><p>还p了些炫光~</p><p><img src="https://pic.imgdb.cn/item/5e5fc90798271cb2b8372ac7.png"></p><p><img src="https://pic.imgdb.cn/item/5e5fc90498271cb2b83728bd.png"></p>]]></content>
+    
+    
+    <categories>
+      
+      <category>环境艺术</category>
+      
+    </categories>
+    
+    
+    <tags>
+      
+      <tag>3DSMAX</tag>
+      
+      <tag>效果图</tag>
+      
+    </tags>
+    
+  </entry>
+  
+  
+  
+  <entry>
+    <title>探索家--未来生活大展</title>
+    <link href="/2018/09/28/2018-09-28-%E6%8E%A2%E7%B4%A2%E5%AE%B6-%E4%BC%9A%E5%B1%95/"/>
+    <url>/2018/09/28/2018-09-28-%E6%8E%A2%E7%B4%A2%E5%AE%B6-%E4%BC%9A%E5%B1%95/</url>
+    
+    <content type="html"><![CDATA[<h3 id="参加了一个会展，还是很有趣的。"><a href="#参加了一个会展，还是很有趣的。" class="headerlink" title="参加了一个会展，还是很有趣的。"></a>参加了一个会展，还是很有趣的。</h3><p>哈哈，其实我是想去看看青山周平的作品。。。</p><p><img src="https://pic.imgdb.cn/item/5e60d6cb98271cb2b8aac627.png"></p><p><img src="https://pic.imgdb.cn/item/5e60d5e898271cb2b8aa3832.jpg"><br><img src="https://pic.imgdb.cn/item/5e60d5e898271cb2b8aa383a.jpg"><br><img src="https://pic.imgdb.cn/item/5e60d5e898271cb2b8aa3840.jpg"><br><img src="https://pic.imgdb.cn/item/5e60d5e898271cb2b8aa3849.jpg"><br><img src="https://pic.imgdb.cn/item/5e60d5e898271cb2b8aa384f.jpg"><br><img src="https://pic.imgdb.cn/item/5e60d5e898271cb2b8aa3857.jpg"><br><img src="https://pic.imgdb.cn/item/5e60d5e898271cb2b8aa385f.jpg"><br><img src="https://pic.imgdb.cn/item/5e60d5e898271cb2b8aa3867.jpg"><br><img src="https://pic.imgdb.cn/item/5e60d5e898271cb2b8aa3873.jpg"><br><img src="https://pic.imgdb.cn/item/5e60d5e898271cb2b8aa387d.jpg"><br><img src="https://pic.imgdb.cn/item/5e60d5e898271cb2b8aa3886.jpg"><br><img src="https://pic.imgdb.cn/item/5e60d5e898271cb2b8aa388e.jpg"><br><img src="https://pic.imgdb.cn/item/5e60d5e898271cb2b8aa3897.jpg"><br><img src="https://pic.imgdb.cn/item/5e60d5e898271cb2b8aa38a3.jpg"><br><img src="https://pic.imgdb.cn/item/5e60d5e898271cb2b8aa38af.jpg"><br><img src="https://pic.imgdb.cn/item/5e60d5e898271cb2b8aa38b5.jpg"><br><img src="https://pic.imgdb.cn/item/5e60d5e898271cb2b8aa38bc.jpg"><br><img src="https://pic.imgdb.cn/item/5e60d5e898271cb2b8aa38c5.jpg"><br><img src="https://pic.imgdb.cn/item/5e60d5e898271cb2b8aa38ce.jpg"><br><img src="https://pic.imgdb.cn/item/5e60d5e898271cb2b8aa38d4.jpg"></p>]]></content>
+    
+    
+    <categories>
+      
+      <category>环境艺术</category>
+      
+    </categories>
+    
+    
+    <tags>
+      
+      <tag>室外</tag>
+      
+      <tag>会展</tag>
+      
+    </tags>
+    
+  </entry>
+  
+  
+  
+  <entry>
+    <title>月饼</title>
+    <link href="/2018/09/13/2018-09-13-%E6%9C%88%E9%A5%BC/"/>
+    <url>/2018/09/13/2018-09-13-%E6%9C%88%E9%A5%BC/</url>
+    
+    <content type="html"><![CDATA[<h3 id="节日快乐"><a href="#节日快乐" class="headerlink" title="节日快乐"></a>节日快乐</h3><p>吃月饼了<del>又到了一年一度的月饼节</del></p><p>每逢佳节倍思亲啊~</p><p><img src="https://pic.imgdb.cn/item/5e5fc36998271cb2b83567c5.jpg"></p><p><img src="https://pic.imgdb.cn/item/5e5fbecf98271cb2b8332925.jpg"></p><p><img src="https://pic.imgdb.cn/item/5e5fc46598271cb2b835b5bc.png"></p>]]></content>
+    
+    
+    <categories>
+      
+      <category>渲染</category>
+      
+    </categories>
+    
+    
+    <tags>
+      
+      <tag>效果图</tag>
+      
+      <tag>blender</tag>
+      
+    </tags>
+    
+  </entry>
+  
+  
+  
+  <entry>
+    <title>vivo福州商场</title>
+    <link href="/2018/08/20/2018-09-19-%E7%A6%8F%E5%B7%9E%E5%95%86%E5%9C%BA/"/>
+    <url>/2018/08/20/2018-09-19-%E7%A6%8F%E5%B7%9E%E5%95%86%E5%9C%BA/</url>
+    
+    <content type="html"><![CDATA[<p>vivo手机专卖店</p><p><img src="https://pic.imgdb.cn/item/5e675b1b98271cb2b8ab1fff.png"></p><p><img src="https://pic.imgdb.cn/item/5e675b2f98271cb2b8ab29b6.jpg"></p><p><img src="https://pic.imgdb.cn/item/5e675b3498271cb2b8ab2cb7.jpg"></p><p><img src="https://pic.imgdb.cn/item/5e675b3c98271cb2b8ab334b.jpg"></p><p><img src="https://pic.imgdb.cn/item/5e675b4698271cb2b8ab3854.jpg"></p><p><img src="https://pic.imgdb.cn/item/5e675b4d98271cb2b8ab3de1.jpg"></p><p><img src="https://pic.imgdb.cn/item/5e675b5698271cb2b8ab41fe.jpg"></p><p><img src="https://pic.imgdb.cn/item/5e675b4298271cb2b8ab365d.jpg"></p><p><img src="https://pic.imgdb.cn/item/5e675ad898271cb2b8ab01c4.png"></p><p><img src="https://pic.imgdb.cn/item/5e675ae298271cb2b8ab069b.png"></p><p><img src="https://pic.imgdb.cn/item/5e675aef98271cb2b8ab0bd1.png"></p><p><img src="https://pic.imgdb.cn/item/5e675afd98271cb2b8ab1164.png"></p><p><img src="https://pic.imgdb.cn/item/5e675b0d98271cb2b8ab1989.png"></p><hr><p><img src="https://pic.imgdb.cn/item/5e675e6498271cb2b8ad0559.jpg"><br><img src="https://pic.imgdb.cn/item/5e675e6498271cb2b8ad05b1.jpg"><br><img src="https://pic.imgdb.cn/item/5e675e6698271cb2b8ad06a3.jpg"><br><img src="https://pic.imgdb.cn/item/5e675e6798271cb2b8ad07a4.jpg"><br><img src="https://pic.imgdb.cn/item/5e675e6898271cb2b8ad0837.jpg"><br><img src="https://pic.imgdb.cn/item/5e675e6998271cb2b8ad0871.jpg"><br><img src="https://pic.imgdb.cn/item/5e675e6a98271cb2b8ad0989.jpg"><br><img src="https://pic.imgdb.cn/item/5e675e6f98271cb2b8ad0d09.jpg"><br><img src="https://pic.imgdb.cn/item/5e675e6f98271cb2b8ad0d5a.jpg"><br><img src="https://pic.imgdb.cn/item/5e675e6f98271cb2b8ad0d6a.jpg"><br><img src="https://pic.imgdb.cn/item/5e675e6f98271cb2b8ad0d90.jpg"><br><img src="https://pic.imgdb.cn/item/5e675e7098271cb2b8ad0e0f.jpg"><br><img src="https://pic.imgdb.cn/item/5e675e7098271cb2b8ad0e28.jpg"><br><img src="https://pic.imgdb.cn/item/5e675e7198271cb2b8ad0f32.jpg"><br><img src="https://pic.imgdb.cn/item/5e675e7198271cb2b8ad0f7f.jpg"><br><img src="https://pic.imgdb.cn/item/5e675e7298271cb2b8ad0f9e.jpg"></p><p><img src="https://pic.imgdb.cn/item/5e675e6998271cb2b8ad08c7.jpg"><br><img src="https://pic.imgdb.cn/item/5e675e6b98271cb2b8ad0a25.jpg"><br><img src="https://pic.imgdb.cn/item/5e675e6b98271cb2b8ad0a43.jpg"><br><img src="https://pic.imgdb.cn/item/5e675e6d98271cb2b8ad0bbf.jpg"><br><img src="https://pic.imgdb.cn/item/5e675e6d98271cb2b8ad0bcc.jpg"><br><img src="https://pic.imgdb.cn/item/5e675e6e98271cb2b8ad0c48.jpg"><br><img src="https://pic.imgdb.cn/item/5e675e6e98271cb2b8ad0c60.jpg"><br><img src="https://pic.imgdb.cn/item/5e675e6e98271cb2b8ad0cc7.jpg"><br><img src="https://pic.imgdb.cn/item/5e675e6f98271cb2b8ad0d6d.jpg"><br><img src="https://pic.imgdb.cn/item/5e675e7198271cb2b8ad0e92.jpg"><br><img src="https://pic.imgdb.cn/item/5e675e7198271cb2b8ad0f76.jpg"><br><img src="https://pic.imgdb.cn/item/5e675e7298271cb2b8ad0fec.jpg"><br><img src="https://pic.imgdb.cn/item/5e675e7298271cb2b8ad0ff8.jpg"><br><img src="https://pic.imgdb.cn/item/5e675e7398271cb2b8ad10ac.jpg"><br><img src="https://pic.imgdb.cn/item/5e675e7398271cb2b8ad10e0.jpg"><br><img src="https://pic.imgdb.cn/item/5e675e7398271cb2b8ad118b.jpg"></p><p><img src="https://pic.imgdb.cn/item/5e675e6c98271cb2b8ad0ab8.jpg"><br><img src="https://pic.imgdb.cn/item/5e675e6c98271cb2b8ad0b07.jpg"></p>]]></content>
+    
+    
+    <categories>
+      
+      <category>环境艺术</category>
+      
+    </categories>
+    
+    
+    <tags>
+      
+      <tag>效果图</tag>
+      
+      <tag>3DMAX</tag>
+      
+    </tags>
+    
+  </entry>
+  
+  
+  
+  <entry>
+    <title>中式轻奢</title>
+    <link href="/2018/07/24/2018-07-24-%E4%B8%AD%E5%BC%8F%E5%AE%A2%E5%8E%85/"/>
+    <url>/2018/07/24/2018-07-24-%E4%B8%AD%E5%BC%8F%E5%AE%A2%E5%8E%85/</url>
+    
+    <content type="html"><![CDATA[<h3 id="中式轻奢"><a href="#中式轻奢" class="headerlink" title="中式轻奢"></a>中式轻奢</h3><p>黑色的边角走线和金色的点缀，窗景的隔断。</p><p>沉稳，内敛，又不失</p><p><img src="https://pic.imgdb.cn/item/5e64fd8798271cb2b88b014a.png"></p><p><img src="https://pic.imgdb.cn/item/5e64ff5798271cb2b88bb031.png"></p><p><img src="https://pic.imgdb.cn/item/5e64fcc798271cb2b88ab829.png"></p><p><img src="https://pic.imgdb.cn/item/5e64fccf98271cb2b88abb3d.png"></p><p><img src="https://pic.imgdb.cn/item/5e64fcd698271cb2b88abdd7.png"></p><p><img src="https://pic.imgdb.cn/item/5e64fcdd98271cb2b88ac073.png"></p>]]></content>
+    
+    
+    <categories>
+      
+      <category>环境艺术</category>
+      
+    </categories>
+    
+    
+    <tags>
+      
+      <tag>效果图</tag>
+      
+      <tag>3DMAX</tag>
+      
+      <tag>家装</tag>
+      
+    </tags>
+    
+  </entry>
+  
+  
+  
+  <entry>
+    <title>第一次全景尝试</title>
+    <link href="/2018/06/29/2018-06-29-%E5%85%A8%E6%99%AF%E5%AE%A4%E5%86%85/"/>
+    <url>/2018/06/29/2018-06-29-%E5%85%A8%E6%99%AF%E5%AE%A4%E5%86%85/</url>
+    
+    <content type="html"><![CDATA[<h3 id="全景"><a href="#全景" class="headerlink" title="全景"></a>全景</h3><p>原图丢了。。。</p><iframe src="https://720yun.com/t/4fvku7fep2l" frameborder="no" width="100%" height="500" ></iframe><p><img src="https://pic.imgdb.cn/item/5e60da0298271cb2b8ad0fc6.jpg"></p>]]></content>
+    
+    
+    <categories>
+      
+      <category>环境艺术</category>
+      
+    </categories>
+    
+    
+    <tags>
+      
+      <tag>3DSMAX</tag>
+      
+      <tag>效果图</tag>
+      
+    </tags>
+    
+  </entry>
+  
+  
+  
+  <entry>
+    <title>一个小客厅</title>
+    <link href="/2018/05/25/2018-05-25-%E7%AE%80%E5%8D%95%E7%9A%84%E5%B0%8F%E5%AE%A2%E5%8E%85/"/>
+    <url>/2018/05/25/2018-05-25-%E7%AE%80%E5%8D%95%E7%9A%84%E5%B0%8F%E5%AE%A2%E5%8E%85/</url>
+    
+    <content type="html"><![CDATA[<h3 id="小客厅"><a href="#小客厅" class="headerlink" title="小客厅"></a>小客厅</h3><p>一个小客厅，对比度没整太高~</p><p><img src="https://pic.imgdb.cn/item/5e62468398271cb2b833d428.png"></p><p><img src="https://pic.imgdb.cn/item/5e6245d098271cb2b833495e.png"></p><p><img src="https://pic.imgdb.cn/item/5e6245dd98271cb2b8334e3d.png"></p><p><img src="https://pic.imgdb.cn/item/5e6245e498271cb2b83350f2.png"></p><p><img src="https://pic.imgdb.cn/item/5e6245ec98271cb2b8335443.png"></p>]]></content>
+    
+    
+    <categories>
+      
+      <category>环境艺术</category>
+      
+    </categories>
+    
+    
+    <tags>
+      
+      <tag>3DSMAX</tag>
+      
+      <tag>效果图</tag>
+      
+    </tags>
+    
+  </entry>
+  
+  
+  
+  <entry>
+    <title>简单的动画练习</title>
+    <link href="/2018/05/10/2018-05-10-%E7%AE%80%E5%8D%95%E5%8A%A8%E7%94%BB%E7%BB%83%E4%B9%A0/"/>
+    <url>/2018/05/10/2018-05-10-%E7%AE%80%E5%8D%95%E5%8A%A8%E7%94%BB%E7%BB%83%E4%B9%A0/</url>
+    
+    <content type="html"><![CDATA[<h3 id="动画三则"><a href="#动画三则" class="headerlink" title="动画三则"></a>动画三则</h3><p>这几个动画是用C4D做的~简单练习一下</p><p>C4D在平面设计中用的还是比较多的，德国的东西确实严谨简单些，比起3dsmax的随心所欲好入门很多~</p><p><img src="https://pic.imgdb.cn/item/5e5fc62798271cb2b83646ef.gif"></p><p><img src="https://pic.imgdb.cn/item/5e5fc67f98271cb2b83660fa.gif"></p><p><img src="https://pic.imgdb.cn/item/5e5fc67598271cb2b8365dd7.gif"></p>]]></content>
+    
+    
+    <categories>
+      
+      <category>渲染</category>
+      
+    </categories>
+    
+    
+    <tags>
+      
+      <tag>效果图</tag>
+      
+      <tag>C4D</tag>
+      
+    </tags>
+    
+  </entry>
+  
+  
+  
+  <entry>
+    <title>关于3dsmax以及V-ray的安装教程</title>
+    <link href="/2017/10/08/2017-10-08-3dsmax%E4%B8%8Evray%E5%AE%89%E8%A3%85/"/>
+    <url>/2017/10/08/2017-10-08-3dsmax%E4%B8%8Evray%E5%AE%89%E8%A3%85/</url>
+    
+    <content type="html"><![CDATA[<p>我发现有很多同学还不会3dsmax的安装啊，我在学校安装的3dsmax没有100个也有80个。各种问题的都有，没有安装文件的（有了文件也不会安装= =）；有文件不会安装的；安装缺少组件的；安装完不会破解的；破解完不会安装V-ray的；甚至还有不知道V-ray是什么的。。。。。等等等等，太多了，后来教会了几位同学，我才轻松了许多= =</p><a id="more"></a><p>​    不过很多妹纸也不会哦<del>哈哈哈<br>​    咳咳，事实证明，有没有女朋友和会不会电脑或者软件没有任何关系2333，不要问我怎么么知道的，我就是知道，还不告诉你我怎么知道的</del><br>​    说正事，我今天要教会你们怎么安装3dsmax，简单的三个步骤~<br>一、下载软件；</p><p><img src="https://pic.superbed.cn/item/5e04d51976085c328975e4a1.jpg"></p><p>链接: <a href="https://pan.baidu.com/s/1sluPztz">https://pan.baidu.com/s/1sluPztz</a> 密码: ji5c<br>  （3dsmax百度云地址，版本2014版）<br>  2014版兼顾稳定功能速度等，相对很棒的一个版本 学校电脑是09版本吧，如果有需要再私聊我吧。<br>  链接: <a href="https://pan.baidu.com/s/1hsxjE0s">https://pan.baidu.com/s/1hsxjE0s</a> 密码: e75u<br>  （V-ray百度云地址，中文版）<br>  v-ray和3dsmax的版本是一一对应的，而V-ray又有自己的版本，现在最新的版本是3.6，不用一味的追求最新版，但也不要停留的版本太低<br>  链接: <a href="https://pan.baidu.com/s/1c2F8Kbm">https://pan.baidu.com/s/1c2F8Kbm</a> 密码: pc6s</p><p><img src="https://pic2.superbed.cn/item/5e04d59276085c3289760684.jpg"></p><p>（注册机授权软件，使用前关闭安全软件，如果你的安全软件是迈克菲，请私聊我，哈哈哈，因为你必须完全退出）<br>二、安装软件；<br>  这个就很简单了，把以上软件下载完，会出现三个文件，3dsmax主程序，就是那个箭头一样的东西，V-ray就是中间这个圆形中间一个v的图标，最后一个也就是注册机，最下面那个。</p><p><img src="https://pic1.superbed.cn/item/5e04d5b076085c32897614c2.jpg"></p><p>  首先，我们先安装3dsmax主程序，很简单，双击就好，它是自解压程序，会自动解压到c盘的根目录，不用管，自解压完毕就会自动安装，选择安装位置，建议使用默认安装位置，速度和效率，以及安装插件都会简单很多，一路默认安装下一步，电脑配置较差的话速度可能会出现很慢的情况，不要着急，不要强行中断，不要强行关机，否者会出现问题。<br>  等它安装完毕就OK了</p><p><img src="https://pic1.superbed.cn/item/5e04d5c676085c3289761e2e.jpg"></p><p> 安装主程序的过程中会出现这个画面，这个时候我们选择单机安装，产品信息填写<br>序列号666-69696969<br>密钥128F1<br>下一步就好</p><p><img src="https://pic3.superbed.cn/item/5e04d5d976085c32897621aa.jpg"></p><p>  这个时候我们的主程序就OK了，已经可以正常的试用3dsmax了，但是这是试用模式，我们要注册成永久的，正版用户可以跳过这一步。</p><p>  打开3dsmax （在开始菜单下选择Autodesk文件夹，下面有很多3ds Max启动文件找到3ds Max2014 -Simplified Chinese，双击启动，这个是中文3ds max，英文好的直接在桌面启动就好了。<br>  这里我们用英文版示意以下步骤</p><p><img src="https://pic3.superbed.cn/item/5e04d5e776085c3289762486.jpg"></p><p><img src="https://pic1.superbed.cn/item/5e04d5f876085c3289762943.jpg"></p><p><img src="https://pic1.superbed.cn/item/5e04d60776085c3289762e5e.jpg"></p><p><img src="https://pic.superbed.cn/item/5e04d61976085c3289763341.jpg"></p><p><img src="https://pic1.superbed.cn/item/5e04d62676085c328976379c.jpg"></p><p>这个时候就到我们的注册机出场了</p><p><img src="https://pic1.superbed.cn/item/5e04d63476085c3289763bd4.jpg"></p><p><img src="https://pic.superbed.cn/item/5e04d64076085c328976425a.jpg"></p><p><img src="https://pic.superbed.cn/item/5e04d64e76085c32897645ed.jpg"></p><p><img src="https://pic3.superbed.cn/item/5e04d65a76085c32897649c3.jpg"></p><p> 激活完成后也就意味着我们完成了3dsmax的安装和破解，下面我们来进行最后一步，V-ray的安装。<br>三、V-ray的安装<br>这个很简单，双击安装就好，记得关闭3ds max的情况进行安装。完成后打开渲染设置看一下，成功。</p>]]></content>
+    
+    
+    <categories>
+      
+      <category>环境艺术</category>
+      
+    </categories>
+    
+    
+    <tags>
+      
+      <tag>3DSMAX</tag>
+      
+      <tag>教程</tag>
+      
+    </tags>
+    
+  </entry>
+  
+  
+  
+  <entry>
+    <title>cad/发布/图纸集/选项卡面板</title>
+    <link href="/2017/10/06/2017-10-06-cad%E5%9B%BE%E7%BA%B8%E9%9B%86/"/>
+    <url>/2017/10/06/2017-10-06-cad%E5%9B%BE%E7%BA%B8%E9%9B%86/</url>
+    
+    <content type="html"><![CDATA[<p>​    终于把cad的批量打印，图纸集，和选项卡面板弄好了，真的是难，我现在还没有完全弄好，真心有些复杂。。。。搞了一整天，今天我再来研究一下动态块的方法。<br>​    这些弄完的话，对以后工作还是很有帮助的~~~~</p><a id="more"></a><p><img src="https://pic2.superbed.cn/item/5e04d71e76085c3289767a1e.jpg"></p>]]></content>
+    
+    
+    <categories>
+      
+      <category>环境艺术</category>
+      
+    </categories>
+    
+    
+    <tags>
+      
+      <tag>3DSMAX</tag>
+      
+      <tag>效果图</tag>
+      
+    </tags>
+    
+  </entry>
+  
+  
+  
+  <entry>
+    <title>一滩水</title>
+    <link href="/2017/10/01/2017-10-01-%E6%B0%B4%E4%BD%93%E6%9D%90%E8%B4%A8%E7%BB%83%E4%B9%A0/"/>
+    <url>/2017/10/01/2017-10-01-%E6%B0%B4%E4%BD%93%E6%9D%90%E8%B4%A8%E7%BB%83%E4%B9%A0/</url>
+    
+    <content type="html"><![CDATA[<p>​    国庆，闲来无事，做了个水体材质练习，比我原来的水面靠谱多了，</p><p><img src="https://pic2.superbed.cn/item/5e04d7c476085c3289769743.png"></p>]]></content>
+    
+    
+    <categories>
+      
+      <category>环境艺术</category>
+      
+    </categories>
+    
+    
+    <tags>
+      
+      <tag>3DSMAX</tag>
+      
+      <tag>效果图</tag>
+      
+    </tags>
+    
+  </entry>
+  
+  
+  
+  <entry>
+    <title>新年快乐</title>
+    <link href="/2017/09/23/2018-12-19-%E6%96%B0%E5%B9%B4%E5%BF%AB%E4%B9%90/"/>
+    <url>/2017/09/23/2018-12-19-%E6%96%B0%E5%B9%B4%E5%BF%AB%E4%B9%90/</url>
+    
+    <content type="html"><![CDATA[<h3 id="新年快乐"><a href="#新年快乐" class="headerlink" title="新年快乐"></a>新年快乐</h3><p>看了个视频，也做了一个，文字叠加有点看不清楚，但是大致能看出来~</p><p><img src="https://pic.imgdb.cn/item/5e5fa89298271cb2b823eac3.jpg"></p><p>还有一开始做的~~~</p><p><img src="https://pic.imgdb.cn/item/5e5fa92a98271cb2b82490d4.png"></p><p><img src="https://pic.imgdb.cn/item/5e5fa96498271cb2b824a578.png"></p><p><img src="https://pic.imgdb.cn/item/5e5fbdf498271cb2b8328ea3.png"></p>]]></content>
+    
+    
+    <categories>
+      
+      <category>渲染</category>
+      
+    </categories>
+    
+    
+    <tags>
+      
+      <tag>效果图</tag>
+      
+      <tag>blender</tag>
+      
+    </tags>
+    
+  </entry>
+  
+  
+  
+  <entry>
+    <title>Denoiser降噪通道对比</title>
+    <link href="/2017/09/23/2017-09-23-Denoiser%E9%99%8D%E5%99%AA%E9%80%9A%E9%81%93%E5%AF%B9%E6%AF%94/"/>
+    <url>/2017/09/23/2017-09-23-Denoiser%E9%99%8D%E5%99%AA%E9%80%9A%E9%81%93%E5%AF%B9%E6%AF%94/</url>
+    
+    <content type="html"><![CDATA[<p>​    图片一渲染时间长达4个小时40分钟，图片二渲染时间才20分钟。渲染时间对比~<br>​    其实实际上这两个图看起来差别非常的微小，而图二仅仅添加了一个Denoiser降噪通道，非常好用，可以极其明显的缩短渲染时间，提高渲染效率。<br>​    而且对玻璃反射折射的效果也非常舒服。<br>​    打印A3纸这样的尺寸妥妥的。</p><a id="more"></a><p><img src="https://pic2.superbed.cn/item/5e04d8ae76085c328976bd6b.png" alt="图一"></p><p><img src="https://pic2.superbed.cn/item/5e04d8e276085c328976c599.png" alt="图二"></p>]]></content>
+    
+    
+    <categories>
+      
+      <category>环境艺术</category>
+      
+    </categories>
+    
+    
+    <tags>
+      
+      <tag>3DSMAX</tag>
+      
+      <tag>效果图</tag>
+      
+    </tags>
+    
+  </entry>
+  
+  
+  
+  <entry>
+    <title>欧式空间练习</title>
+    <link href="/2017/09/22/2017-09-22-%E6%AC%A7%E5%BC%8F%E7%A9%BA%E9%97%B4%E7%BB%83%E4%B9%A0/"/>
+    <url>/2017/09/22/2017-09-22-%E6%AC%A7%E5%BC%8F%E7%A9%BA%E9%97%B4%E7%BB%83%E4%B9%A0/</url>
+    
+    <content type="html"><![CDATA[<p><a href="https://3.bp.blogspot.com/-z0A7cmfDTlM/WcTGBkbLKBI/AAAAAAAARMM/zrQzcSDghj8AsxKYJO8RmElUzzOnSE1HQCLcBGAs/s1600/1.2.png"><img src="https://pic1.superbed.cn/item/5e04d9eb76085c328976ff38.png" alt="img"></a></p><p>   又是无聊的时候的一套图，这回对建模材质，灯光的整体把控都有一个很好的把控，目前为止，这应该是我所能控制的最好的图了。不可否认，仍然有许多问题，不过相对而言，我非常开心，无论是建模，材质，灯光，我都能很好的控制，很舒服~~~~哈哈哈<br>  有空再练几个图试试看，<br>  我觉的我的问题还是对家具样式的搭配上，无法很好的处理。也强求不来~~<br>  对了，这套图，一天出完整模型，贴图，渲染调整一天。共计两天~</p><p><a href="https://1.bp.blogspot.com/-4Qg__R2tjT0/WcTFwzaMAdI/AAAAAAAARME/RtYLn7FGYtcEgB0zPN-A2OUlrAj7npffgCLcBGAs/s1600/1.3.png"><img src="https://pic2.superbed.cn/item/5e04da1476085c3289770655.png" alt="img"></a></p><p><a href="https://1.bp.blogspot.com/-SVs4mPHIAAA/WcTG39U0pFI/AAAAAAAARMw/OF7Q99lYqYs2MzU4qenyBQ_WpZ3V_XIywCLcBGAs/s1600/1.4.png"><img src="https://pic.superbed.cn/item/5e04da2c76085c3289770af8.png" alt="img"></a></p><p><a href="https://2.bp.blogspot.com/-rVLXzrgzI0s/WcTIvhyx4ZI/AAAAAAAARNc/nZh6hRvYYrsJg_qT1Ie5IcHJAOJ0IgrhwCLcBGAs/s1600/1.1.png"><img src="https://pic.superbed.cn/item/5e04da3b76085c3289770d8a.png" alt="img"></a></p>]]></content>
+    
+    
+    <categories>
+      
+      <category>环境艺术</category>
+      
+    </categories>
+    
+    
+    <tags>
+      
+      <tag>3DSMAX</tag>
+      
+      <tag>效果图</tag>
+      
+    </tags>
+    
+  </entry>
+  
+  
+  
+  <entry>
+    <title>浙江一户人家</title>
+    <link href="/2017/09/20/2017-09-19-%E6%B5%99%E6%B1%9F%E4%B8%80%E6%88%B7/"/>
+    <url>/2017/09/20/2017-09-19-%E6%B5%99%E6%B1%9F%E4%B8%80%E6%88%B7/</url>
+    
+    <content type="html"><![CDATA[<p>​    这是帮助浙江的一位先生做的一张图，当时对3D了解很少，无法准备的控制整个场景，导致了很多问题的出现，无论是窗帘过曝，还是内部亮度不够，都存在很严重的问题，对整体的把控度非常低。那时我甚至开始怀疑我自己，无法准确的控制这一切，仿佛一切都白学了。<br>​    先说这个吧，家具的选择，色彩的搭配，问题百出，难以忽略。</p><a id="more"></a><p><img src="https://pic2.superbed.cn/item/5e04db7976085c3289774c14.jpg"></p><p><img src="https://pic2.superbed.cn/item/5e04db8676085c3289774fc6.jpg"></p><p><img src="https://pic.superbed.cn/item/5e04db9376085c32897752cf.jpg"></p><p><img src="https://pic3.superbed.cn/item/5e04db9c76085c328977562c.jpg"></p>]]></content>
+    
+    
+    <categories>
+      
+      <category>环境艺术</category>
+      
+    </categories>
+    
+    
+    <tags>
+      
+      <tag>3DSMAX</tag>
+      
+      <tag>效果图</tag>
+      
+    </tags>
+    
+  </entry>
+  
+  
+  
+  <entry>
+    <title>客厅练习</title>
+    <link href="/2017/09/19/2017-09-19-%E5%AE%A2%E5%8E%85%E7%BB%83%E4%B9%A0/"/>
+    <url>/2017/09/19/2017-09-19-%E5%AE%A2%E5%8E%85%E7%BB%83%E4%B9%A0/</url>
+    
+    <content type="html"><![CDATA[<h3 id="小客厅"><a href="#小客厅" class="headerlink" title="小客厅"></a>小客厅</h3><p>又一个室内客厅的小练习，这次的练习自我感觉还不错，没有了第一次的青涩。对光线的掌控有了一个全新的认识，对曝光可以进行不错的控制了，这种感觉非常奇妙。甚是喜欢，这个图主要也是对光线的了解，也算给自己一个交代吧。<br>在吉林这边，学习很久了，中途做点小图，也能知道自己现在处于什么阶段，还有哪些问题，这是很棒的。<br>其实在这张图前，我学习了PS。原来我也认为我是会PS的，在看完一个视频后，我对PS有了全新的认识，对于PS的一切都有了全新的认识。说实话，现在的我觉得我原来所了解的ps简直是有点傻。</p><a id="more"></a><p><img src="https://pic3.superbed.cn/item/5e04dafb76085c3289772e3b.jpg"></p><p><img src="https://pic2.superbed.cn/item/5e04dab776085c32897720d0.jpg"></p>]]></content>
+    
+    
+    <categories>
+      
+      <category>环境艺术</category>
+      
+    </categories>
+    
+    
+    <tags>
+      
+      <tag>3DSMAX</tag>
+      
+      <tag>效果图</tag>
+      
+    </tags>
+    
+  </entry>
+  
+  
+  
+  <entry>
+    <title>客厅一角</title>
+    <link href="/2017/09/19/2017-09-19-%E5%AE%A2%E5%8E%85%E4%B8%80%E8%A7%92/"/>
+    <url>/2017/09/19/2017-09-19-%E5%AE%A2%E5%8E%85%E4%B8%80%E8%A7%92/</url>
+    
+    <content type="html"><![CDATA[<p> 在吉林期间做的一个小练习，旨在练习光线的感觉，室外的光线和室内的光线进行一个交替，很 优美而舒服的感觉，但窗外的风景略丑~~</p><p><img src="https://pic1.superbed.cn/item/5e04dc0476085c328977696c.jpg"></p>]]></content>
+    
+    
+    <categories>
+      
+      <category>环境艺术</category>
+      
+    </categories>
+    
+    
+    <tags>
+      
+      <tag>3DSMAX</tag>
+      
+      <tag>效果图</tag>
+      
+    </tags>
+    
+  </entry>
+  
+  
+  
+  <entry>
+    <title>卧室阳台</title>
+    <link href="/2017/09/08/2017-10-18-%E5%8D%A7%E5%AE%A4%E9%98%B3%E5%8F%B0%E4%B8%80%E8%A7%92/"/>
+    <url>/2017/09/08/2017-10-18-%E5%8D%A7%E5%AE%A4%E9%98%B3%E5%8F%B0%E4%B8%80%E8%A7%92/</url>
+    
+    <content type="html"><![CDATA[<p>制作时间：一天</p><p>渲染单图时间：40min</p><a id="more"></a><p>第一次遇到严重溢色情况，使用材质包裹解决，还是蛮方便的。昨晚后想做个夜晚的效果，花了我不少时间，还没做好，原因是室外贴图太糟糕了………用贴图真的难以模拟，而好的hdri真的难找………无法模拟夜晚外部的亮光，模型模拟的话工程量略大，很是烦～</p><p>而且我做的是4楼的阳台，外部贴图很是难找，很少有在4楼拍的照片，我觉得我需要一个相机～来拍贴图。 </p><p><img src="https://pic.superbed.cn/item/5e04d46476085c328975a59f.png"></p><p><img src="https://pic.superbed.cn/item/5e04d47176085c328975aa12.png"></p><p><img src="https://pic.superbed.cn/item/5e04d47d76085c328975b035.png"></p><p><img src="https://pic3.superbed.cn/item/5e04d48776085c328975b393.png"></p><p><img src="https://pic3.superbed.cn/item/5e04d49176085c328975b61e.png"></p>]]></content>
+    
+    
+    <categories>
+      
+      <category>环境艺术</category>
+      
+    </categories>
+    
+    
+    <tags>
+      
+      <tag>3DSMAX</tag>
+      
+      <tag>效果图</tag>
+      
+    </tags>
+    
+  </entry>
+  
+  
+  
+  <entry>
+    <title>花园</title>
+    <link href="/2017/09/08/2017-09-08-%E8%8A%B1%E5%9B%AD/"/>
+    <url>/2017/09/08/2017-09-08-%E8%8A%B1%E5%9B%AD/</url>
+    
+    <content type="html"><![CDATA[<h3 id="一个花园"><a href="#一个花园" class="headerlink" title="一个花园"></a>一个花园</h3><p>这是2017年九月八日完成的一套室外图，完成度非常低。。。。质量也十分的差，简直可笑。。。当时对灯光的认识过于浅薄。。。根本就是小孩在玩，各个方面都有挺大的问题。。。现在能做的效果肯定会比这好很多很多<del>很嫌弃我当时哈，哈哈哈哈哈</del>隔<br>不过看的到的成长，还是蛮爽的~<br>图的问题，我也不想深究了。。。太多了</p><p><img src="https://pic.superbed.cn/item/5e04dcc176085c3289778891.jpg"></p><p><img src="https://pic.superbed.cn/item/5e04dcea76085c3289778ee1.jpg"></p><p><img src="https://pic.superbed.cn/item/5e04dcf476085c328977911a.jpg"></p><p><img src="https://pic3.superbed.cn/item/5e04dcff76085c32897792df.jpg"></p>]]></content>
+    
+    
+    <categories>
+      
+      <category>环境艺术</category>
+      
+    </categories>
+    
+    
+    <tags>
+      
+      <tag>3DSMAX</tag>
+      
+      <tag>效果图</tag>
+      
+      <tag>室外</tag>
+      
+    </tags>
+    
+  </entry>
+  
+  
+  
+  
+</search>

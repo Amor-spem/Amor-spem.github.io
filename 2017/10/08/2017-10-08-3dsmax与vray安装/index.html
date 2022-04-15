@@ -1,0 +1,488 @@
+
+
+<!DOCTYPE html>
+<html lang="zh-CN" data-default-color-scheme=&#34;auto&#34;>
+
+
+
+<head>
+  <meta charset="UTF-8">
+  <link rel="apple-touch-icon" sizes="76x76" href="/img/me.webp">
+  <link rel="icon" type="image/png" href="/img/me.webp">
+  <meta name="viewport"
+        content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, shrink-to-fit=no">
+  <meta http-equiv="x-ua-compatible" content="ie=edge">
+  
+  <meta name="theme-color" content="#2f4154">
+  <meta name="description" content="3D设计在建筑室内领域的探索与应用">
+  <meta name="author" content="DENG">
+  <meta name="keywords" content="室内设计 3D 建筑可视化">
+  <title>关于3dsmax以及V-ray的安装教程 - AMOR&amp;SPEM</title>
+
+  <link  rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" />
+
+
+  <link  rel="stylesheet" href="https://cdn.jsdelivr.net/npm/github-markdown-css@4.0.0/github-markdown.min.css" />
+  <link  rel="stylesheet" href="/lib/hint/hint.min.css" />
+
+  
+    
+    
+      
+      <link  rel="stylesheet" href="https://cdn.jsdelivr.net/npm/highlight.js@10.4.0/styles/github-gist.min.css" />
+    
+  
+
+  
+    <link  rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.css" />
+  
+
+
+
+<!-- 主题依赖的图标库，不要自行修改 -->
+
+<link rel="stylesheet" href="//at.alicdn.com/t/font_1749284_ba1fz6golrf.css">
+
+
+
+<link rel="stylesheet" href="//at.alicdn.com/t/font_1736178_kmeydafke9r.css">
+
+
+<link  rel="stylesheet" href="/css/main.css" />
+
+<!-- 自定义样式保持在最底部 -->
+
+
+  <script id="fluid-configs">
+    var Fluid = window.Fluid || {};
+    var CONFIG = {"hostname":"3ddd.site","root":"/","version":"1.8.6","typing":{"enable":true,"typeSpeed":70,"cursorChar":"_","loop":false},"toc":{"enable":true,"headingSelector":"h1,h2,h3,h4,h5,h6","collapseDepth":0},"anchorjs":{"enable":true,"element":"h1,h2,h3,h4,h5,h6","placement":"right","visible":"hover","icon":""},"copy_btn":true,"image_zoom":{"enable":true},"lazyload":{"enable":true,"onlypost":false},"web_analytics":{"enable":false,"baidu":null,"google":null,"gtag":null,"tencent":{"sid":null,"cid":null},"woyaola":null,"cnzz":null,"leancloud":{"app_id":null,"app_key":null,"server_url":null}}};
+  </script>
+  <script  src="/js/utils.js" ></script>
+  <script  src="/js/color-schema.js" ></script>
+  <script data-ad-client="ca-pub-1155028838491421" async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<meta name="generator" content="Hexo 5.2.0"></head>
+
+
+<body>
+  <header style="height: 70vh;">
+    <nav id="navbar" class="navbar fixed-top  navbar-expand-lg navbar-dark scrolling-navbar">
+  <div class="container">
+    <a class="navbar-brand"
+       href="/">&nbsp;<strong>AmorSpem</strong>&nbsp;</a>
+
+    <button id="navbar-toggler-btn" class="navbar-toggler" type="button" data-toggle="collapse"
+            data-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <div class="animated-icon"><span></span><span></span><span></span></div>
+    </button>
+
+    <!-- Collapsible content -->
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav ml-auto text-center">
+        
+          
+          
+          
+          
+            <li class="nav-item">
+              <a class="nav-link" href="/">
+                <i class="iconfont icon-home-fill"></i>
+                首页
+              </a>
+            </li>
+          
+        
+          
+          
+          
+          
+            <li class="nav-item">
+              <a class="nav-link" href="/archives/">
+                <i class="iconfont icon-archive-fill"></i>
+                归档
+              </a>
+            </li>
+          
+        
+          
+          
+          
+          
+            <li class="nav-item">
+              <a class="nav-link" href="/categories/">
+                <i class="iconfont icon-category-fill"></i>
+                分类
+              </a>
+            </li>
+          
+        
+          
+          
+          
+          
+            <li class="nav-item">
+              <a class="nav-link" href="/tags/">
+                <i class="iconfont icon-tags-fill"></i>
+                标签
+              </a>
+            </li>
+          
+        
+          
+          
+          
+          
+            <li class="nav-item">
+              <a class="nav-link" href="/about/">
+                <i class="iconfont icon-user-fill"></i>
+                关于
+              </a>
+            </li>
+          
+        
+          
+          
+          
+          
+            <li class="nav-item">
+              <a class="nav-link" href="/links/">
+                <i class="iconfont icon-link-fill"></i>
+                友链
+              </a>
+            </li>
+          
+        
+        
+          <li class="nav-item" id="search-btn">
+            <a class="nav-link" data-toggle="modal" data-target="#modalSearch">&nbsp;<i
+                class="iconfont icon-search"></i>&nbsp;</a>
+          </li>
+        
+        
+          <li class="nav-item" id="color-toggle-btn">
+            <a class="nav-link" href="javascript:">&nbsp;<i
+                class="iconfont icon-dark" id="color-toggle-icon"></i>&nbsp;</a>
+          </li>
+        
+      </ul>
+    </div>
+  </div>
+</nav>
+
+    <div class="banner intro-2" id="background" parallax=true
+         style="background: url('/img/default.png') no-repeat center center;
+           background-size: cover;">
+      <div class="full-bg-img">
+        <div class="mask flex-center" style="background-color: rgba(0, 0, 0, 0.3)">
+          <div class="page-header text-center fade-in-up">
+            <span class="h2" id="subtitle" title="关于3dsmax以及V-ray的安装教程">
+              
+            </span>
+
+            
+              <div class="mt-3">
+  
+  
+    <span class="post-meta">
+      <i class="iconfont icon-date-fill" aria-hidden="true"></i>
+      <time datetime="2017-10-08 10:10" pubdate>
+        2017年10月8日 上午
+      </time>
+    </span>
+  
+</div>
+
+<div class="mt-1">
+  
+    
+    <span class="post-meta mr-2">
+      <i class="iconfont icon-chart"></i>
+      891 字
+    </span>
+  
+
+  
+    
+    <span class="post-meta mr-2">
+      <i class="iconfont icon-clock-fill"></i>
+      
+      
+      9
+       分钟
+    </span>
+  
+
+  
+  
+</div>
+
+            
+          </div>
+
+          
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    
+      
+
+<div class="container-fluid">
+  <div class="row">
+    <div class="d-none d-lg-block col-lg-2"></div>
+    <div class="col-lg-8 nopadding-md">
+      <div class="container nopadding-md" id="board-ctn">
+        <div class="py-5" id="board">
+          <article class="post-content mx-auto">
+            <!-- SEO header -->
+            <h1 style="display: none">关于3dsmax以及V-ray的安装教程</h1>
+            
+            <div class="markdown-body">
+              <p>我发现有很多同学还不会3dsmax的安装啊，我在学校安装的3dsmax没有100个也有80个。各种问题的都有，没有安装文件的（有了文件也不会安装= =）；有文件不会安装的；安装缺少组件的；安装完不会破解的；破解完不会安装V-ray的；甚至还有不知道V-ray是什么的。。。。。等等等等，太多了，后来教会了几位同学，我才轻松了许多= =</p>
+<a id="more"></a>
+
+<p>​    不过很多妹纸也不会哦<del>哈哈哈<br>​    咳咳，事实证明，有没有女朋友和会不会电脑或者软件没有任何关系2333，不要问我怎么么知道的，我就是知道，还不告诉你我怎么知道的</del><br>​    说正事，我今天要教会你们怎么安装3dsmax，简单的三个步骤~<br>一、下载软件；</p>
+<p><img src="https://pic.superbed.cn/item/5e04d51976085c328975e4a1.jpg" srcset="/img/loading.gif"></p>
+<p>链接: <a target="_blank" rel="noopener" href="https://pan.baidu.com/s/1sluPztz">https://pan.baidu.com/s/1sluPztz</a> 密码: ji5c<br>  （3dsmax百度云地址，版本2014版）<br>  2014版兼顾稳定功能速度等，相对很棒的一个版本 学校电脑是09版本吧，如果有需要再私聊我吧。<br>  链接: <a target="_blank" rel="noopener" href="https://pan.baidu.com/s/1hsxjE0s">https://pan.baidu.com/s/1hsxjE0s</a> 密码: e75u<br>  （V-ray百度云地址，中文版）<br>  v-ray和3dsmax的版本是一一对应的，而V-ray又有自己的版本，现在最新的版本是3.6，不用一味的追求最新版，但也不要停留的版本太低<br>  链接: <a target="_blank" rel="noopener" href="https://pan.baidu.com/s/1c2F8Kbm">https://pan.baidu.com/s/1c2F8Kbm</a> 密码: pc6s</p>
+<p><img src="https://pic2.superbed.cn/item/5e04d59276085c3289760684.jpg" srcset="/img/loading.gif"></p>
+<p>（注册机授权软件，使用前关闭安全软件，如果你的安全软件是迈克菲，请私聊我，哈哈哈，因为你必须完全退出）<br>二、安装软件；<br>  这个就很简单了，把以上软件下载完，会出现三个文件，3dsmax主程序，就是那个箭头一样的东西，V-ray就是中间这个圆形中间一个v的图标，最后一个也就是注册机，最下面那个。</p>
+<p><img src="https://pic1.superbed.cn/item/5e04d5b076085c32897614c2.jpg" srcset="/img/loading.gif"></p>
+<p>  首先，我们先安装3dsmax主程序，很简单，双击就好，它是自解压程序，会自动解压到c盘的根目录，不用管，自解压完毕就会自动安装，选择安装位置，建议使用默认安装位置，速度和效率，以及安装插件都会简单很多，一路默认安装下一步，电脑配置较差的话速度可能会出现很慢的情况，不要着急，不要强行中断，不要强行关机，否者会出现问题。<br>  等它安装完毕就OK了</p>
+<p><img src="https://pic1.superbed.cn/item/5e04d5c676085c3289761e2e.jpg" srcset="/img/loading.gif"></p>
+<p> 安装主程序的过程中会出现这个画面，这个时候我们选择单机安装，产品信息填写<br>序列号666-69696969<br>密钥128F1<br>下一步就好</p>
+<p><img src="https://pic3.superbed.cn/item/5e04d5d976085c32897621aa.jpg" srcset="/img/loading.gif"></p>
+<p>  这个时候我们的主程序就OK了，已经可以正常的试用3dsmax了，但是这是试用模式，我们要注册成永久的，正版用户可以跳过这一步。</p>
+<p>  打开3dsmax （在开始菜单下选择Autodesk文件夹，下面有很多3ds Max启动文件找到3ds Max2014 -Simplified Chinese，双击启动，这个是中文3ds max，英文好的直接在桌面启动就好了。<br>  这里我们用英文版示意以下步骤</p>
+<p><img src="https://pic3.superbed.cn/item/5e04d5e776085c3289762486.jpg" srcset="/img/loading.gif"></p>
+<p><img src="https://pic1.superbed.cn/item/5e04d5f876085c3289762943.jpg" srcset="/img/loading.gif"></p>
+<p><img src="https://pic1.superbed.cn/item/5e04d60776085c3289762e5e.jpg" srcset="/img/loading.gif"></p>
+<p><img src="https://pic.superbed.cn/item/5e04d61976085c3289763341.jpg" srcset="/img/loading.gif"></p>
+<p><img src="https://pic1.superbed.cn/item/5e04d62676085c328976379c.jpg" srcset="/img/loading.gif"></p>
+<p>这个时候就到我们的注册机出场了</p>
+<p><img src="https://pic1.superbed.cn/item/5e04d63476085c3289763bd4.jpg" srcset="/img/loading.gif"></p>
+<p><img src="https://pic.superbed.cn/item/5e04d64076085c328976425a.jpg" srcset="/img/loading.gif"></p>
+<p><img src="https://pic.superbed.cn/item/5e04d64e76085c32897645ed.jpg" srcset="/img/loading.gif"></p>
+<p><img src="https://pic3.superbed.cn/item/5e04d65a76085c32897649c3.jpg" srcset="/img/loading.gif"></p>
+<p> 激活完成后也就意味着我们完成了3dsmax的安装和破解，下面我们来进行最后一步，V-ray的安装。<br>三、V-ray的安装<br>这个很简单，双击安装就好，记得关闭3ds max的情况进行安装。完成后打开渲染设置看一下，成功。</p>
+
+            </div>
+            <hr>
+            <div>
+              <div class="post-metas mb-3">
+                
+                  <div class="post-meta mr-3">
+                    <i class="iconfont icon-category"></i>
+                    
+                      <a class="hover-with-bg" href="/categories/%E7%8E%AF%E5%A2%83%E8%89%BA%E6%9C%AF/">环境艺术</a>
+                    
+                  </div>
+                
+                
+                  <div class="post-meta">
+                    <i class="iconfont icon-tags"></i>
+                    
+                      <a class="hover-with-bg" href="/tags/3DSMAX/">3DSMAX</a>
+                    
+                      <a class="hover-with-bg" href="/tags/%E6%95%99%E7%A8%8B/">教程</a>
+                    
+                  </div>
+                
+              </div>
+              
+                <p class="note note-warning">本博客所有文章除特别声明外，均采用 <a target="_blank" href="https://creativecommons.org/licenses/by-sa/4.0/deed.zh" rel="nofollow noopener noopener">CC BY-SA 4.0 协议</a> ，转载请注明出处！</p>
+              
+              
+                <div class="post-prevnext row">
+                  <article class="post-prev col-6">
+                    
+                    
+                      <a href="/2018/05/10/2018-05-10-%E7%AE%80%E5%8D%95%E5%8A%A8%E7%94%BB%E7%BB%83%E4%B9%A0/">
+                        <i class="iconfont icon-arrowleft"></i>
+                        <span class="hidden-mobile">简单的动画练习</span>
+                        <span class="visible-mobile">上一篇</span>
+                      </a>
+                    
+                  </article>
+                  <article class="post-next col-6">
+                    
+                    
+                      <a href="/2017/10/06/2017-10-06-cad%E5%9B%BE%E7%BA%B8%E9%9B%86/">
+                        <span class="hidden-mobile">cad/发布/图纸集/选项卡面板</span>
+                        <span class="visible-mobile">下一篇</span>
+                        <i class="iconfont icon-arrowright"></i>
+                      </a>
+                    
+                  </article>
+                </div>
+              
+            </div>
+
+            
+          </article>
+        </div>
+      </div>
+    </div>
+    
+      <div class="d-none d-lg-block col-lg-2 toc-container" id="toc-ctn">
+        <div id="toc">
+  <p class="toc-header"><i class="iconfont icon-list"></i>&nbsp;目录</p>
+  <div class="toc-body" id="toc-body"></div>
+</div>
+
+      </div>
+    
+  </div>
+</div>
+
+<!-- Custom -->
+
+
+    
+
+    
+      <a id="scroll-top-button" href="#" role="button">
+        <i class="iconfont icon-arrowup" aria-hidden="true"></i>
+      </a>
+    
+
+    
+      <div class="modal fade" id="modalSearch" tabindex="-1" role="dialog" aria-labelledby="ModalLabel"
+     aria-hidden="true">
+  <div class="modal-dialog modal-dialog-scrollable modal-lg" role="document">
+    <div class="modal-content">
+      <div class="modal-header text-center">
+        <h4 class="modal-title w-100 font-weight-bold">搜索</h4>
+        <button type="button" id="local-search-close" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body mx-3">
+        <div class="md-form mb-5">
+          <input type="text" id="local-search-input" class="form-control validate">
+          <label data-error="x" data-success="v"
+                 for="local-search-input">关键词</label>
+        </div>
+        <div class="list-group" id="local-search-result"></div>
+      </div>
+    </div>
+  </div>
+</div>
+    
+
+    
+  </main>
+
+  <footer class="text-center mt-5 py-3">
+  <div class="footer-content">
+     <a href="https://amor.spem.site" target="_blank" rel="nofollow noopener"><span>香蕉</span></a> <i class="iconfont icon-love"></i> <a href="https://amor.spem.site" target="_blank" rel="nofollow noopener"><span>苹果</span></a> 
+  </div>
+  
+
+  
+
+  
+</footer>
+
+<!-- SCRIPTS -->
+
+  <script  src="https://cdn.jsdelivr.net/npm/nprogress@0.2.0/nprogress.min.js" ></script>
+  <link  rel="stylesheet" href="https://cdn.jsdelivr.net/npm/nprogress@0.2.0/nprogress.min.css" />
+
+  <script>
+    NProgress.configure({"showSpinner":false,"trickleSpeed":200})
+    NProgress.start()
+    document.addEventListener('DOMContentLoaded', function() {
+      window.NProgress && window.NProgress.inc();
+    })
+    window.addEventListener('load', function() {
+      NProgress.done();
+    })
+  </script>
+
+
+<script  src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.min.js" ></script>
+<script  src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.min.js" ></script>
+<script  src="/js/debouncer.js" ></script>
+<script  src="/js/events.js" ></script>
+<script  src="/js/plugins.js" ></script>
+
+<!-- Plugins -->
+
+
+  
+    <script  src="/js/lazyload.js" ></script>
+  
+
+
+
+  
+
+
+
+  <script  src="https://cdn.jsdelivr.net/npm/tocbot@4.12.0/dist/tocbot.min.js" ></script>
+
+
+
+  <script  src="https://cdn.jsdelivr.net/npm/@fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.js" ></script>
+
+
+
+  <script  src="https://cdn.jsdelivr.net/npm/anchor-js@4.3.0/anchor.min.js" ></script>
+
+
+
+  <script defer src="https://cdn.jsdelivr.net/npm/clipboard@2.0.6/dist/clipboard.min.js" ></script>
+
+
+
+
+
+
+  <script  src="https://cdn.jsdelivr.net/npm/typed.js@2.0.11/lib/typed.min.js" ></script>
+  <script>
+    (function (window, document) {
+      var typing = Fluid.plugins.typing;
+      var title = document.getElementById('subtitle').title;
+      
+      typing(title)
+      
+    })(window, document);
+  </script>
+
+
+
+  <script  src="/js/local-search.js" ></script>
+  <script>
+    (function () {
+      var path = "/local-search.xml";
+      var inputArea = document.querySelector("#local-search-input");
+      inputArea.onclick = function () {
+        searchFunc(path, 'local-search-input', 'local-search-result');
+        this.onclick = null
+      }
+    })()
+  </script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- 主题的启动项 保持在最底部 -->
+<script  src="/js/boot.js" ></script>
+
+
+
+</body>
+</html>
